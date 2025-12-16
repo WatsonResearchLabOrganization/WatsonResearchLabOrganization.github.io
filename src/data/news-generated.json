@@ -1,0 +1,123 @@
+[
+  {
+    "id": "2025_UBICOMP",
+    "title": "Tarek presented \"DermaGlow: Objective Quantification of Melanin, Erythema and Skin-tone Using Wearable Optical Spectroscopy\" at UBICOMP 2025!",
+    "date": "2025-10-15",
+    "year": 2025,
+    "category": "",
+    "tags": [],
+    "summary": "Check out the publication here [Link to Article.](https://dl.acm.org/doi/abs/10.1145/3729474)",
+    "content": "",
+    "image": "/news/2025_UBICOMP/featured.png",
+    "link": "",
+    "folder": "2025_UBICOMP"
+  },
+  {
+    "id": "2025_EMBC",
+    "title": "Haoran presented \"OpenSpectro An Open-Source Spectroscopic Profiling Platform\" at EMBC 2025!",
+    "date": "2025-07-15",
+    "year": 2025,
+    "category": "",
+    "tags": [],
+    "summary": "Check out the publication here [Link to Article.](https://watsonresearchlab.org/publication/zhang-2025-openspectro/zhang-2025-openspectro.pdf)",
+    "content": "",
+    "image": "/news/2025_EMBC/featured.jpg",
+    "link": "",
+    "folder": "2025_EMBC"
+  },
+  {
+    "id": "2025_ICASSP",
+    "title": "Tarek presented \"A multi-Wavelength Optical Sensing Framework for Calibration-Free Wearable Blood Pressure Monitoing\" at ICASSP 2025!",
+    "date": "2025-03-15",
+    "year": 2025,
+    "category": "",
+    "tags": [],
+    "summary": "Check out the publication here [Link to Article.](https://watsonresearchlab.org/publication/hamid-2025-bp/hamid-2025-bp.pdf)",
+    "content": "",
+    "image": "/news/2025_ICASSP/featured.jpg",
+    "link": "",
+    "folder": "2025_ICASSP"
+  },
+  {
+    "id": "2024_BSN",
+    "title": "Tarek presented \"Raproto An Open-Source Platform for Rapid Prototyping with Wearable Devices\" at BSN 2024 and was 2nd Runner Up for Best Paper Award!",
+    "date": "2024-11-16",
+    "year": 2024,
+    "category": "",
+    "tags": [],
+    "summary": "Check out the publication here [Link to Article.](http://watsonresearchlab.org/publication/hamid-2024-raproto/hamid-2024-raproto.pdf)",
+    "content": "",
+    "image": "/news/2024_BSN/featured.jpeg",
+    "link": "",
+    "folder": "2024_BSN"
+  },
+  {
+    "id": "2024_UVA_News",
+    "title": "WRL featured in UVA news!",
+    "date": "2024-08-29",
+    "year": 2024,
+    "category": "",
+    "tags": [],
+    "summary": "Check out the post here [Link to Article.](https://engineering.virginia.edu/news-events/news/meet-wearable-tech-inventor-whose-health-watch-could-better-watch-over-you)",
+    "content": "",
+    "image": "/news/2024_UVA_News/featured.png",
+    "link": "",
+    "folder": "2024_UVA_News"
+  },
+  {
+    "id": "2024_IJCAI",
+    "title": "Anush presented \"Drug Overdose Vital-Signs Evaluator Using Machine Learning\" at IJCAI 2024!",
+    "date": "2024-08-16",
+    "year": 2024,
+    "category": "",
+    "tags": [],
+    "summary": "Check out the publication here [Link to Article.](https://amandawatson.org/publication/lingamoorthy-2024-ijcai/lingamoorthy-2024-IJCAI.pdf)",
+    "content": "",
+    "image": "/news/2024_IJCAI/featured.jpeg",
+    "link": "",
+    "folder": "2024_IJCAI"
+  },
+  {
+    "id": "sharon_award",
+    "title": "Congrats to the Sharon Lu for winning the Charles L. Brown Deptartment of ECE Award for Excellence Award!",
+    "date": "2024-04-25",
+    "year": 2024,
+    "category": "",
+    "tags": [],
+    "summary": "Sharon Lu won winning the Charles L. Brown Deptartment of ECE Award for Excellence Award. The harles L. Brown Deptartment of ECE Award for Excellence Award is presented annually to the two 4th-year undergraduate students who are judged by the awards committee to have outstanding credentials, including being ranked in the top 20% of their class, showing evidence of interest in communications and computers, and showing evidence of professional interests and activities.",
+    "content": "",
+    "image": "/news/sharon_award/featured.JPG",
+    "link": "",
+    "folder": "sharon_award"
+  },
+  {
+    "id": "luminosity_shanghai",
+    "title": "Congrats to the Winners of techIES 2023 International Session on Biomed!",
+    "date": "2023-11-27",
+    "year": 2023,
+    "category": "Lumos",
+    "tags": [
+      "Lumos"
+    ],
+    "summary": "We won first prize at the techIES 2023 International Session on Biomed! [Link to Article.](https://www.shanghaitech.edu.cn/eng/2023/1124/c1260a1086272/page.htm)",
+    "content": "",
+    "image": "/news/luminosity_shanghai/featured.jpeg",
+    "link": "",
+    "folder": "luminosity_shanghai"
+  },
+  {
+    "id": "lumos_arduino",
+    "title": "Lumos finally enables wearable spectroscopy research!",
+    "date": "2023-01-27",
+    "year": 2023,
+    "category": "Lumos",
+    "tags": [
+      "Lumos"
+    ],
+    "summary": "Lumos was featured by Arduino! [Link to Article.]( https://blog.arduino.cc/2023/01/27/lumos-finally-enables-wearable-spectroscopy-research/)",
+    "content": "",
+    "image": "/news/lumos_arduino/featured.jpg",
+    "link": "",
+    "folder": "lumos_arduino"
+  }
+]

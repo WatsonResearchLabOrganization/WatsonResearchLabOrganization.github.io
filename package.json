@@ -5,9 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm run generate:pubs && vite build",
+    "build": "npm run generate:pubs && npm run generate:news && vite build",
     "preview": "vite preview",
-    "generate:pubs": "node scripts/generatePublications.js"
+    "generate:pubs": "node scripts/generatePublications.js",
+    "generate:news": "node scripts/generateNews.js",
+    "generate:all": "npm run generate:pubs && npm run generate:news"
   },
   "dependencies": {
     "framer-motion": "^11.0.5",
