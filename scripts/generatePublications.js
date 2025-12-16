@@ -71,6 +71,8 @@ const generatePublications = () => {
         poster: data.url_poster || '',
         slides: data.url_slides || '',
         code: data.url_code || '',
+        video: data.url_video || '',
+        dataset: data.url_dataset || '',
         citation: citation,
         featuredImage: featuredImage,
         folder: folder
