@@ -1,0 +1,838 @@
+[
+  {
+    "id": "lingamoorthy-2025-AISI",
+    "title": "HypoxSpike: Ternary Spiking Neural Network for Opioid Overdose Detection",
+    "authors": "Anush Lingamoorthy, Abhishek Mishra, Olumuyiwa Oni, Jacob S Brenner, Nagarajan Kandasamy, Amanda Watson",
+    "venue": "*AAAI AISI 26:  Association for the Advancement of Artificial Intelligence Artificial Intelligence for Social Impact Track*",
+    "year": 2025,
+    "date": "2025-11-03",
+    "publicationTypes": [
+      "paper-conference"
+    ],
+    "abstract": "",
+    "pdf": "/publications/lingamoorthy-2025-AISI/lingamoorthy-2025-AISI.pdf",
+    "poster": "",
+    "slides": "",
+    "code": "",
+    "citation": "@inproceedings{lingamoorthy2024drug,\r\n  title={HypoxSpike: Ternary Spiking Neural Network for Opioid Overdose Detection},\r\n  author={Lingamoorthy, Anush Niranjan and Mishra, Abhishek Kumar and Olumuyiwa Oni and Brenner, Jacob and Kandasamy, Nagarajan and Watson, Amanda},\r\n  booktitle={*AAAI AISI 26:  Association for the Advancement of Artificial Intelligence Artificial Intelligence for Social Impact Track},\r\n  year={2025}\r\n}",
+    "featuredImage": "/publications/lingamoorthy-2025-AISI/featured.png",
+    "folder": "lingamoorthy-2025-AISI"
+  },
+  {
+    "id": "zhang-2025-openspectro",
+    "title": "OpenSpectro: An Open-Source Spectroscopic Profiling Platform",
+    "authors": "Zhang Haoran, Courtney Elizabeth, Kyle Quinn, Amanda Watson",
+    "venue": "*EMBC*",
+    "year": 2025,
+    "date": "2025-08-04",
+    "publicationTypes": [
+      "article-journal"
+    ],
+    "abstract": "",
+    "pdf": "/publications/zhang-2025-openspectro/zhang-2025-openspectro.pdf",
+    "poster": "https://watsonresearchlab.org/publication/zhang-2025-openspectro/EMBC_Poster.pdf",
+    "slides": "",
+    "code": "",
+    "citation": "@inproceedings{zhangopenspectro,\r\n  title={OpenSpectro: An Open-Source Spectroscopic Profiling Platform},\r\n  author={Zhang, Haoran and Courtney, Elizabeth C and Quinn, Kyle C and Watson, Amanda}\r\n  booktitle={2025 47th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)},\r\n  year={2025},\r\n  organization={IEEE}\r\n}",
+    "featuredImage": "/publications/zhang-2025-openspectro/featured.png",
+    "folder": "zhang-2025-openspectro"
+  },
+  {
+    "id": "hamid-2025-pervasive",
+    "title": "Characterization and Feasibility of Wearable Spectroscopic Tracking of Nutrition Biomarkers",
+    "authors": "Hamid Tarek, Courtney Elizabeth, Flores Patricia, Byun Jane, Afsaneh Doryab, Sibylle Kranz, Amanda Watson",
+    "venue": "*IEEE Pervasive Computing*",
+    "year": 2025,
+    "date": "2025-08-01",
+    "publicationTypes": [
+      "paper-journal"
+    ],
+    "abstract": "",
+    "pdf": "/publications/hamid-2025-pervasive/hamid-2025-pervasive.pdf",
+    "poster": "",
+    "slides": "",
+    "code": "",
+    "citation": "@article{hamid2025characterization,\r\n  title={Characterization and Feasibility of Wearable Spectroscopic Tracking of Nutrition Biomarkers},\r\n  author={Hamid, Tarek and Courtney, Elizabeth C and Flores, Patricia and Byun, Jane and Doryab, Afsaneh and Kranz, Sibylle and Watson, Amanda},\r\n  journal={IEEE Pervasive Computing},\r\n  year={2025},\r\n  publisher={IEEE}\r\n}",
+    "featuredImage": "/publications/hamid-2025-pervasive/featured.png",
+    "folder": "hamid-2025-pervasive"
+  },
+  {
+    "id": "hamid-2025-skin-tone-imwut",
+    "title": "DermaGlow: Objective Quantification of Melanin, Erythema and Skin-tone Using Wearable Optical Spectroscopy",
+    "authors": "Hamid Tarek, Flores Patricia, Byun Jane, Courtney Elizabeth, Kyle C. Quinn, Amanda Watson",
+    "venue": "*Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies*",
+    "year": 2025,
+    "date": "2025-06-22",
+    "publicationTypes": [
+      "article-journal"
+    ],
+    "abstract": "",
+    "pdf": "https://dl.acm.org/doi/abs/10.1145/3729474",
+    "poster": "",
+    "slides": "",
+    "code": "",
+    "citation": "@article{hamid2025dermaglow,\r\n  title={DermaGlow: Objective Quantification of Melanin, Erythema and Skin-tone Using Wearable Optical Spectroscopy},\r\n  author={Hamid, Tarek and Flores, Patricia and Byun, Jane and Courtney, Elizabeth C and Quinn, Kyle C and Watson, Amanda},\r\n  journal={Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies},\r\n  volume={9},\r\n  number={2},\r\n  pages={1--28},\r\n  year={2025},\r\n  publisher={ACM New York, NY, USA}\r\n}",
+    "featuredImage": "/publications/hamid-2025-skin-tone-imwut/featured.png",
+    "folder": "hamid-2025-skin-tone-imwut"
+  },
+  {
+    "id": "weimer_2025_vibrant",
+    "title": "VIBRANT: Early Prediction of Life-Threatening Uterine Atony Using Maternal Heart Rate",
+    "authors": "Kimberly K Trout, Stefanie Modri, Amanda Watson, Insup Lee, Harish Sehdev, James Weimer",
+    "venue": "*IEEE/ACM Conference on Connected Health: Applications, Systems, and Engineering Technologies*",
+    "year": 2025,
+    "date": "2025-04-22",
+    "publicationTypes": [
+      "article-journal"
+    ],
+    "abstract": "",
+    "pdf": "https://jamesweimer.net/pdf/2025-chase.pdf",
+    "poster": "",
+    "slides": "",
+    "code": "",
+    "citation": "@article{trout2025vibrant,\r\n  title={VIBRANT: Early Prediction of Life-Threatening Uterine Atony Using Maternal Heart Rate},\r\n  author={Trout, Kimberly K and Modri, Stefanie and Watson, Amanda and Lee, Insup and Sehdev, Harish and Weimer, James},\r\n  year={2025}\r\n}\r\n",
+    "featuredImage": "/publications/weimer_2025_vibrant/featured.jpg",
+    "folder": "weimer_2025_vibrant"
+  },
+  {
+    "id": "greenberg-2024-acl-rt",
+    "title": "Precision Rehabilitation after Youth Anterior Cruciate Ligament Reconstruction: Individualized Reinjury Risk Stratification and Modifiable Risk Factor Identification to Guide Late-Phase Rehabilitation",
+    "authors": "Elliot Greenberg, Amanda Watson, Kevin Landrum, Kimberly Helm, J Todd R Lawrence, Theodore J Ganley",
+    "venue": "*OJSM25: Orthopaedic Journal of Sports Medicine*",
+    "year": 2025,
+    "date": "2025-04-01",
+    "publicationTypes": [
+      "paper-conference"
+    ],
+    "abstract": "",
+    "pdf": "https://journals.sagepub.com/doi/full/10.1177/23259671251329355",
+    "poster": "",
+    "slides": "",
+    "code": "",
+    "citation": "@article{greenberg2025precision,\r\n  title={Precision Rehabilitation After Youth Anterior Cruciate Ligament Reconstruction: Individualized Reinjury Risk Stratification and Modifiable Risk Factor Identification to Guide Late-Phase Rehabilitation},\r\n  author={Greenberg, Elliot M and Watson, Amanda and Helm, Kimberly and Landrum, Kevin and Lawrence, J Todd R and Ganley, Theodore J},\r\n  journal={Orthopaedic Journal of Sports Medicine},\r\n  volume={13},\r\n  number={4},\r\n  pages={23259671251329355},\r\n  year={2025},\r\n  publisher={SAGE Publications Sage CA: Los Angeles, CA}\r\n}",
+    "featuredImage": "/publications/greenberg-2024-acl-rt/featured.jpg",
+    "folder": "greenberg-2024-acl-rt"
+  },
+  {
+    "id": "hamid-2025-bp",
+    "title": "A Multi-Wavelength Optical Sensing Framework for Calibration-Free Wearable Blood Pressure Monitoring",
+    "authors": "Hamid Tarek, Flores Patricia, Byun Jane, Chen Xi, Zhang Haoran, Kyle Quinn, Amanda Watson",
+    "venue": "*ICASSP 2025: 2025 IEEE International Conference on Acoustics, Speech, and Signal Processing*",
+    "year": 2025,
+    "date": "2025-03-25",
+    "publicationTypes": [
+      "paper-conference"
+    ],
+    "abstract": "",
+    "pdf": "/publications/hamid-2025-bp/hamid-2025-bp.pdf",
+    "poster": "",
+    "slides": "",
+    "code": "",
+    "citation": "@inproceedings{hamid2025multi,\r\n  title={A Multi-Wavelength Optical Sensing Framework for Calibration-Free Wearable Blood Pressure Monitoring},\r\n  author={Hamid, Tarek and Flores, Patricia and Byun, Jane and Chen, Xi and Zhang, Haoran and Quinn, Kyle and Watson, Amanda},\r\n  booktitle={ICASSP 2025-2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},\r\n  pages={1--5},\r\n  year={2025},\r\n  organization={IEEE}\r\n}\r\n",
+    "featuredImage": "/publications/hamid-2025-bp/featured.jpg",
+    "folder": "hamid-2025-bp"
+  },
+  {
+    "id": "hamid-2024-raproto",
+    "title": "Raproto An Open-Source Platform for Rapid Prototyping with Wearable Devices",
+    "authors": "Hamid Tarek, Kimberly Helm, Hyonyoung Choi, Jean Park, Claire Kendell, Stephanie Cummings, Steve Messe, Stefanie Modri, Insup Lee, James Weimer, Amanda Watson",
+    "venue": "*2024 IEEE 21st International Conference on Body Sensor Networks (BSN)*",
+    "year": 2024,
+    "date": "2024-08-16",
+    "publicationTypes": [
+      "paper-conference"
+    ],
+    "abstract": "",
+    "pdf": "/publications/hamid-2024-raproto/hamid-2024-raproto.pdf",
+    "poster": "",
+    "slides": "",
+    "code": "https://github.com/weimerj/Raproto-WearOS",
+    "citation": "@inproceedings{hamid2024raproto,\r\n  title={Raproto: An Open-Source Platform for Rapid Prototyping with Wearable Devices},\r\n  author={Hamid, Tarek and Helm, Kimberly and Choi, Hyonyoung and Park, Jean and Kendell, Claire and Cummings, Stephanie and Messe, Steve and Modri, Stefanie and Lee, Insup and Weimer, James and others},\r\n  booktitle={2024 IEEE 20th International Conference on Body Sensor Networks (BSN)},\r\n  pages={1--4},\r\n  year={2024},\r\n  organization={IEEE}\r\n}",
+    "featuredImage": "/publications/hamid-2024-raproto/featured.png",
+    "folder": "hamid-2024-raproto"
+  },
+  {
+    "id": "hamid-2024-skin-tone-poster-bsn",
+    "title": "Wearable Sensing for Measuring Skin-Tone, Melanin, and Erythema",
+    "authors": "Hamid Tarek, Anush Lingamoorthy, Kyle Quinn, Amanda Watson",
+    "venue": "*2024 IEEE 21st International Conference on Body Sensor Networks (BSN) Poster and Demo Session*",
+    "year": 2024,
+    "date": "2024-08-16",
+    "publicationTypes": [
+      "paper-conference"
+    ],
+    "abstract": "",
+    "pdf": "/publications/hamid-2024-skin-tone-poster-bsn/hamid-2024-skin-tone-poster-bsn.pdf",
+    "poster": "https://watsonresearchlab.org/publication/hamid-2024-skin-tone-poster/hamid-2024-skin-tone-poster.pdf",
+    "slides": "",
+    "code": "",
+    "citation": "@inproceedings{hamid2024raproto,\r\n author = {Hamid, Tarek and Lingamoorthy, Anush and Quinn, Kyle and Watson, Amanda},\r\n booktitle = {2024 IEEE 21st International Conference on Body Sensor Networks},\r\n title = {Wearable Sensing for Measuring Skin-Tone, Melanin, and Erythema},\r\n year = {2024}\r\n}\r\n\r\n",
+    "featuredImage": "/publications/hamid-2024-skin-tone-poster-bsn/featured.jpg",
+    "folder": "hamid-2024-skin-tone-poster-bsn"
+  },
+  {
+    "id": "lingamoorthy-2024-IJCAI",
+    "title": "Drug Overdose Vital-Signs Evaluator Using Machine Learning",
+    "authors": "Anush Lingamoorthy, Abhishek Mishra, Asuman Kumar, David Gordon, Jacob S Brenner, Nagarajan Kandasamy, Amanda Watson",
+    "venue": "*2024 AI for Social Good track of IJCAI 2024 (the 33nd International Joint Conference on Artificial Intelligence)*",
+    "year": 2024,
+    "date": "2024-08-04",
+    "publicationTypes": [
+      "paper-conference"
+    ],
+    "abstract": "",
+    "pdf": "/publications/lingamoorthy-2024-IJCAI/lingamoorthy-2024-IJCAI.pdf",
+    "poster": "",
+    "slides": "",
+    "code": "https://github.com/abhishekkumarm98/Drug-Overdose-Vital-Signs-Evaluator",
+    "citation": "@inproceedings{lingamoorthy2024drug,\r\n  title={Drug overdose vital-signs evaluator using machine learning},\r\n  author={Lingamoorthy, Anush Niranjan and Mishra, Abhishek Kumar and Kumar, Suman and Gordon, David and Brenner, Jacob and Kandasamy, Nagarajan and Watson, Amanda},\r\n  booktitle={Proceedings of the Thirty-Third International Joint Conference on Artificial Intelligence},\r\n  pages={7358--7366},\r\n  year={2024}\r\n}",
+    "featuredImage": "/publications/lingamoorthy-2024-IJCAI/featured.jpg",
+    "folder": "lingamoorthy-2024-IJCAI"
+  },
+  {
+    "id": "govil-2024-acl-rt",
+    "title": "Using Decision Tree Classifier to Increase Screening Test Sensitivity for the Prediction of ACL Retear",
+    "authors": "Govil Tanishk, Hamid Tarek, Kimberly Helm, Elliot Greenberg, Kevin Landrum, J Todd R Lawrence, Theodore J Ganley, Amanda Watson",
+    "venue": "*Companion of the 2024 on ACM International Joint Conference on Pervasive and Ubiquitous Computing(Poster @ Ubicomp)*",
+    "year": 2024,
+    "date": "2024-05-01",
+    "publicationTypes": [
+      "paper-conference"
+    ],
+    "abstract": "",
+    "pdf": "/publications/govil-2024-acl-rt/govil-2024-acl-rt.pdf",
+    "poster": "",
+    "slides": "https://amandawatson.org/publication/watson-2021-rt/ACLRT.pdf",
+    "code": "",
+    "citation": "@inproceedings{govil2024using,\r\n  title={Using Decision Tree Classifier to Increase Screening Test Sensitivity for the Prediction of ACL Retear},\r\n  author={Govil, Tanishk and Hamid, Tarek and Helm, Kimberly and Greenberg, Elliot and Landrum, Kevin and Lawrence, J Todd R and Ganley, Theodore J and Watson, Amanda},\r\n  booktitle={Companion of the 2024 on ACM International Joint Conference on Pervasive and Ubiquitous Computing},\r\n  pages={171--175},\r\n  year={2024}\r\n}",
+    "featuredImage": "/publications/govil-2024-acl-rt/featured.jpg",
+    "folder": "govil-2024-acl-rt"
+  },
+  {
+    "id": "camacho-2024-navigation",
+    "title": "Evaluating Technology to Improve Tactile Navigation & Communication in People with Visual Disabilities",
+    "authors": "Giovanna Camacho, Matthew Bolton, Amanda Watson, Ian Pitt",
+    "venue": "*Virginia Space Grant Consortium*",
+    "year": 2024,
+    "date": "2024-04-15",
+    "publicationTypes": [
+      "paper-conference"
+    ],
+    "abstract": "",
+    "pdf": "/publications/camacho-2024-navigation/camacho-2024-navigation.pdf",
+    "poster": "",
+    "slides": "",
+    "code": "",
+    "citation": "@article{camacho2024evaluating,\r\n  title={EVALUATING TECHNOLOGY TO IMPROVE TACTILE NAVIGATION \\& COMMUNICA-TION IN PEOPLE WITH VISUAL DISABILITIES},\r\n  author={Camacho, Giovanna and Bolton, Matthew L and Watson, Amanda and Pitt, Ian},\r\n  journal={Proceedings of the 2024 Virginia Space Grant Consortium},\r\n  pages={1--9},\r\n  year={2024}\r\n}\r\n",
+    "featuredImage": "/publications/camacho-2024-navigation/featured.png",
+    "folder": "camacho-2024-navigation"
+  },
+  {
+    "id": "hamid-2023-spectravue",
+    "title": "SpectraVue-An Interactive Web Application Enabling Rapid Data Visualization and Analysis for Wearable Spectroscopy Research",
+    "authors": "Hamid Tarek, Insup Lee, Amanda Watson",
+    "venue": "*Adjunct Proceedings of the 2023 ACM International Joint Conference on Pervasive and Ubiquitous Computing & the 2023 ACM International Symposium on Wearable Computing*",
+    "year": 2023,
+    "date": "2023-10-08",
+    "publicationTypes": [
+      "paper-conference"
+    ],
+    "abstract": "",
+    "pdf": "/publications/hamid-2023-spectravue/hamid-2023-spectravue.pdf",
+    "poster": "",
+    "slides": "",
+    "code": "https://github.com/tarek-hamid/SpectraVue",
+    "citation": "@inproceedings{hamid2023spectravue,\r\n  title={SpectraVue-An Interactive Web Application Enabling Rapid Data Visualization and Analysis for Wearable Spectroscopy Research},\r\n  author={Hamid, Tarek and Lee, Insup and Watson, Amanda},\r\n  booktitle={Adjunct Proceedings of the 2023 ACM International Joint Conference on Pervasive and Ubiquitous Computing \\& the 2023 ACM International Symposium on Wearable Computing},\r\n  pages={146--150},\r\n  year={2023}\r\n}",
+    "featuredImage": "/publications/hamid-2023-spectravue/featured.png",
+    "folder": "hamid-2023-spectravue"
+  },
+  {
+    "id": "ji-2023-short",
+    "title": "Short: Integrated Sensing Platform for Detecting Social Isolation and Loneliness In the Elderly Community",
+    "authors": "Xiayan Ji, Xian Li, Ahhyun Yuh, Amanda Watson, Claire Kendell, James Weimer, Hajime Nagahara, Teruo Higashino, Teruhiro Mizumoto, Viktor Erdélyi,  others",
+    "venue": "*2023 IEEE/ACM Conference on Connected Health: Applications, Systems and Engineering Technologies (CHASE)*",
+    "year": 2023,
+    "date": "2023-06-21",
+    "publicationTypes": [
+      "paper-conference"
+    ],
+    "abstract": "",
+    "pdf": "/publications/ji-2023-short/ji-2023-short.pdf",
+    "poster": "",
+    "slides": "",
+    "code": "",
+    "citation": "@inproceedings{ji2023short,\r\n  title={Short: Integrated sensing platform for detecting social isolation and loneliness in the elderly community},\r\n  author={Ji, Xiayan and Li, Xian and Yuh, Ahhyun and Kendell, Claire and Watson, Amanda and Weimer, James and Nagahara, Hajime and Higashino, Teruo and Mizumoto, Teruhiro and Erd{\\'e}lyi, Viktor and others},\r\n  booktitle={Proceedings of the 8th ACM/IEEE International Conference on Connected Health: Applications, Systems and Engineering Technologies},\r\n  pages={148--152},\r\n  year={2023}\r\n}",
+    "featuredImage": "/publications/ji-2023-short/featured.png",
+    "folder": "ji-2023-short"
+  },
+  {
+    "id": "lingamoorthy-2023-dove",
+    "title": "Dove: shoulder-based opioid overdose detection and reversal device",
+    "authors": "Anush Lingamoorthy, Amanda Watson, Korey Henderson, Ayan Mandal, David Gordon, Xiaonan Ma, James Weimer, Nagarajan Kandasamy, Jacob S Brenner",
+    "venue": "*2023 IEEE/ACM Conference on Connected Health: Applications, Systems and Engineering Technologies (CHASE)*",
+    "year": 2023,
+    "date": "2023-06-21",
+    "publicationTypes": [
+      "paper-conference"
+    ],
+    "abstract": "",
+    "pdf": "/publications/lingamoorthy-2023-dove/lingamoorthy-2023-dove.pdf",
+    "poster": "",
+    "slides": "",
+    "code": "",
+    "citation": "@inproceedings{lingamoorthy2023dove,\r\n  title={Dove: shoulder-based opioid overdose detection and reversal device},\r\n  author={Lingamoorthy, Anush and Watson, Amanda and Gordon, David and Mandal, Ayan and Henderson, Korey and Ma, Xiaonan and Weimer, James and Brenner, Jacob and Kandasamy, Nagarajan},\r\n  booktitle={Proceedings of the 8th ACM/IEEE International Conference on Connected Health: Applications, Systems and Engineering Technologies},\r\n  pages={56--67},\r\n  year={2023}\r\n}",
+    "featuredImage": "/publications/lingamoorthy-2023-dove/featured.png",
+    "folder": "lingamoorthy-2023-dove"
+  },
+  {
+    "id": "sun-2023-parkinson",
+    "title": "Parkinson's Disease Action Tremor Detection with Supervised-Leaning Models",
+    "authors": "Minglong Sun, Woosub Jung, Kenneth Koltermann, Gang Zhou, Amanda Watson, Ginamari Blackwell, Noah Helm, Leslie Cloud, Ingrid Pretzer-Aboff",
+    "venue": "*2023 IEEE/ACM Conference on Connected Health: Applications, Systems and Engineering Technologies (CHASE)*",
+    "year": 2023,
+    "date": "2023-06-21",
+    "publicationTypes": [
+      "paper-conference"
+    ],
+    "abstract": "",
+    "pdf": "/publications/sun-2023-parkinson/sun-2023-parkinson.pdf",
+    "poster": "",
+    "slides": "",
+    "code": "",
+    "citation": "@inproceedings{sun2023parkinson,\r\n author = {Sun, Minglong and Jung, Woosub and Koltermann, Kenneth and Zhou, Gang and Watson, Amanda and Blackwell, Ginamari and Helm, Noah and Cloud, Leslie and Pretzer-Aboff, Ingrid},\r\n booktitle = {2023 IEEE/ACM Conference on Connected Health: Applications, Systems and Engineering Technologies (CHASE)},\r\n organization = {IEEE},\r\n pages = {1--10},\r\n title = {Parkinson's Disease Action Tremor Detection with Supervised-Leaning Models},\r\n year = {2023}\r\n}\r\n",
+    "featuredImage": "/publications/sun-2023-parkinson/featured.png",
+    "folder": "sun-2023-parkinson"
+  },
+  {
+    "id": "ji-2023-icareloop",
+    "title": "iCareLoop: Closed-Loop Sensing and Intervention for Gerontological Social Isolation and Loneliness",
+    "authors": "Xiayan Ji, Ahhyun Yuh, Hyonyoung Choi, Amanda Watson, Claire Kendell, Xian Li, James Weimer, Hajime Nagahara, Teruo Higashino, Teruhiro Mizumoto, Viktor Erdelyi, George Demiris, Oleg Sokolsky, Insup Lee",
+    "venue": "*Proceedings of the ACM/IEEE 14th International Conference on Cyber-Physical Systems (with CPS-IoT Week 2023)*",
+    "year": 2023,
+    "date": "2023-05-09",
+    "publicationTypes": [
+      "paper-conference"
+    ],
+    "abstract": "",
+    "pdf": "/publications/ji-2023-icareloop/ji-2023-icareloop.pdf",
+    "poster": "",
+    "slides": "",
+    "code": "",
+    "citation": "@inproceedings{ji2023icareloop,\r\n  title={iCareLoop: Closed-Loop Sensing and Intervention for Gerontological Social Isolation and Loneliness},\r\n  author={Ji, Xiayan and Yuh, Ahhyun and Choi, Hyonyoung and Watson, Amanda and Kendell, Claire and Li, Xian and Weimer, James and Nagahara, Hajime and Higashino, Teruo and Mizumoto, Teruhiro and others},\r\n  booktitle={Proceedings of the ACM/IEEE 14th International Conference on Cyber-Physical Systems (with CPS-IoT Week 2023)},\r\n  pages={272--273},\r\n  year={2023}\r\n}",
+    "featuredImage": "/publications/ji-2023-icareloop/featured.png",
+    "folder": "ji-2023-icareloop"
+  },
+  {
+    "id": "watson-2023-lumos",
+    "title": "Lumos: An Open-Source Device for Wearable Spectroscopy Research",
+    "authors": "Amanda Watson, Claire Kendell, Anush Lingamoorthy, Insup Lee, James Weimer",
+    "venue": "*Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies*",
+    "year": 2023,
+    "date": "2023-01-11",
+    "publicationTypes": [
+      "article-journal"
+    ],
+    "abstract": "",
+    "pdf": "/publications/watson-2023-lumos/watson-2023-lumos.pdf",
+    "poster": "",
+    "slides": "https://amandawatson.org/publication/watson-2023-lumos/Ubicomp 2024 Pres.pdf",
+    "code": "https://github.com/aawatson22/Lumos",
+    "citation": "@article{watson2023lumos,\r\n author = {Watson, Amanda and Kendell, Claire and Lingamoorthy, Anush and Lee, Insup and Weimer, James},\r\n journal = {Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies},\r\n number = {4},\r\n pages = {1--24},\r\n publisher = {ACM New York, NY, USA},\r\n title = {Lumos: An Open-Source Device for Wearable Spectroscopy Research},\r\n volume = {6},\r\n year = {2023}\r\n}\r\n",
+    "featuredImage": null,
+    "folder": "watson-2023-lumos"
+  },
+  {
+    "id": "kendell-2022-glucoscan",
+    "title": "GlucoScan: Noninvasive Glucose Monitoring Device",
+    "authors": "Claire Kendell, Amanda Watson, Insup Lee, James Weimer",
+    "venue": "*2022 IEEE/ACM Conference on Connected Health: Applications, Systems and Engineering Technologies (CHASE)*",
+    "year": 2022,
+    "date": "2022-11-17",
+    "publicationTypes": [
+      "paper-conference"
+    ],
+    "abstract": "",
+    "pdf": "/publications/kendell-2022-glucoscan/kendell-2022-glucoscan.pdf",
+    "poster": "",
+    "slides": "",
+    "code": "",
+    "citation": "@inproceedings{kendell2022glucoscan,\r\n  title={GlucoScan: Noninvasive glucose monitoring device},\r\n  author={Kendell, Claire and Watson, Amanda and Lee, Insup and Weimer, James},\r\n  booktitle={2022 IEEE/ACM Conference on Connected Health: Applications, Systems and Engineering Technologies (CHASE)},\r\n  pages={158--159},\r\n  year={2022},\r\n  organization={IEEE}\r\n}",
+    "featuredImage": "/publications/kendell-2022-glucoscan/featured.jpg",
+    "folder": "kendell-2022-glucoscan"
+  },
+  {
+    "id": "lingamoorthy-2022-dove",
+    "title": "DOVE: Noninvasive Shoulder-based Opioid Overdose Detection Device",
+    "authors": "Anush Lingamoorthy, Amanda Watson, Ethan Donlon, James Weimer, Jacob S Brenner",
+    "venue": "*2022 IEEE/ACM Conference on Connected Health: Applications, Systems and Engineering Technologies (CHASE)*",
+    "year": 2022,
+    "date": "2022-11-17",
+    "publicationTypes": [
+      "paper-conference"
+    ],
+    "abstract": "",
+    "pdf": "/publications/lingamoorthy-2022-dove/lingamoorthy-2022-dove.pdf",
+    "poster": "",
+    "slides": "",
+    "code": "",
+    "citation": "@inproceedings{lingamoorthy2022dove,\r\n  title={DOVE: Noninvasive Shoulder-based Opioid Overdose Detection Device},\r\n  author={Lingamoorthy, Anush and Watson, Amanda and Donlon, Ethan and Weimer, James and Brenner, Jacob S},\r\n  booktitle={2022 IEEE/ACM Conference on Connected Health: Applications, Systems and Engineering Technologies (CHASE)},\r\n  pages={182--183},\r\n  year={2022},\r\n  organization={IEEE}\r\n}",
+    "featuredImage": "/publications/lingamoorthy-2022-dove/featured.png",
+    "folder": "lingamoorthy-2022-dove"
+  },
+  {
+    "id": "park-2022-autowean",
+    "title": "Autowean: Extubation failure risk estimation for critically ill patients",
+    "authors": "Jean Park, Amanda Watson, Xiayan Ji, Kyle C Quinn, James Weimer, Insup Lee",
+    "venue": "*2022 IEEE/ACM Conference on Connected Health: Applications, Systems and Engineering Technologies (CHASE)*",
+    "year": 2022,
+    "date": "2022-11-17",
+    "publicationTypes": [
+      "paper-conference"
+    ],
+    "abstract": "",
+    "pdf": "/publications/park-2022-autowean/park-2022-autowean.pdf",
+    "poster": "",
+    "slides": "",
+    "code": "",
+    "citation": "@inproceedings{park2022autowean,\r\n author = {Park, Jean and Watson, Amanda and Ji, Xiayan and Quinn, Kyle C and Weimer, James and Lee, Insup},\r\n booktitle = {2022 IEEE/ACM Conference on Connected Health: Applications, Systems and Engineering Technologies (CHASE)},\r\n organization = {IEEE},\r\n pages = {99--110},\r\n title = {Autowean: Extubation failure risk estimation for critically ill patients},\r\n year = {2022}\r\n}\r\n",
+    "featuredImage": "/publications/park-2022-autowean/featured.png",
+    "folder": "park-2022-autowean"
+  },
+  {
+    "id": "modri-2022-observational",
+    "title": "Observational Clinical Outcomes of a Postpartum Hemorrhage Detection Device Development Study",
+    "authors": "Stefanie Modri, Kimberly Trout, James Weimer, Amanda Watson",
+    "venue": "*Journal of Obstetric, Gynecologic & Neonatal Nursing*",
+    "year": 2022,
+    "date": "2022-11-01",
+    "publicationTypes": [
+      "article-journal"
+    ],
+    "abstract": "",
+    "pdf": "https://www.jognn.org/article/S0884-2175(22)00184-8/fulltext",
+    "poster": "",
+    "slides": "",
+    "code": "",
+    "citation": "@article{modri2022observational,\r\n author = {Modri, Stefanie and Trout, Kimberly and Weimer, James and Watson, Amanda},\r\n journal = {Journal of Obstetric, Gynecologic & Neonatal Nursing},\r\n number = {4},\r\n pages = {S90},\r\n publisher = {Elsevier},\r\n title = {Observational Clinical Outcomes of a Postpartum Hemorrhage Detection Device Development Study},\r\n volume = {51},\r\n year = {2022}\r\n}\r\n",
+    "featuredImage": "/publications/modri-2022-observational/featured.png",
+    "folder": "modri-2022-observational"
+  },
+  {
+    "id": "lu-2022-bridging",
+    "title": "Bridging the Gap between Semi-supervised and Supervised Continual Learning via Data Programming",
+    "authors": "Pengyuan Lu, Seungwon Lee, Amanda Watson, David Kent, Insup Lee, Eric Eaton, James Weimer",
+    "venue": "",
+    "year": 2021,
+    "date": "2022-01-01",
+    "publicationTypes": [
+      "article-journal"
+    ],
+    "abstract": "",
+    "pdf": "/publications/lu-2022-bridging/lu-2022-bridging.pdf",
+    "poster": "",
+    "slides": "",
+    "code": "",
+    "citation": "@article{lubridging,\r\n  title={Bridging the Gap between Semi-supervised and Supervised Continual Learning via Data Programming},\r\n  author={Lu, Pengyuan and Lee, Seungwon and Watson, Amanda Annette and Kent, David and Lee, Insup and EATON, ERIC and Weimer, James}\r\n}",
+    "featuredImage": "/publications/lu-2022-bridging/featured.png",
+    "folder": "lu-2022-bridging"
+  },
+  {
+    "id": "lyubovsky-2022-pain",
+    "title": "A pain free nociceptor: Predicting football injuries with machine learning",
+    "authors": "Andrew Lyubovsky, Zhenming Liu, Amanda Watson, Scott Kuehn, Erik Korem, Gang Zhou",
+    "venue": "*Smart Health*",
+    "year": 2021,
+    "date": "2022-01-01",
+    "publicationTypes": [
+      "article-journal"
+    ],
+    "abstract": "",
+    "pdf": "/publications/lyubovsky-2022-pain/lyubovsky-2022-pain.pdf",
+    "poster": "",
+    "slides": "",
+    "code": "",
+    "citation": "@article{lyubovsky2022pain,\r\n author = {Lyubovsky, Andrew and Liu, Zhenming and Watson, Amanda and Kuehn, Scott and Korem, Erik and Zhou, Gang},\r\n journal = {Smart Health},\r\n pages = {100262},\r\n publisher = {Elsevier},\r\n title = {A pain free nociceptor: Predicting football injuries with machine learning},\r\n volume = {24},\r\n year = {2022}\r\n}\r\n",
+    "featuredImage": "/publications/lyubovsky-2022-pain/featured.png",
+    "folder": "lyubovsky-2022-pain"
+  },
+  {
+    "id": "pretzer-2022-impact",
+    "title": "IMPACT OF VIBRATION ON TREMOR IN OLDER ADULTS WITH PARKINSON’S DISEASE",
+    "authors": "Ingrid Pretzer-Aboff, RK Elswick, Amanda Watson, Minglong Sun, Woosub Jung, Ken Koltermann, Gang Zhou, Leslie Cloud",
+    "venue": "*Innovation in Aging*",
+    "year": 2021,
+    "date": "2022-01-01",
+    "publicationTypes": [
+      "article-journal"
+    ],
+    "abstract": "",
+    "pdf": "/publications/pretzer-2022-impact/pretzer-2022-impact.pdf",
+    "poster": "https://amandawatson.org/publication/pretzer-2022-impact/gsa.pdf",
+    "slides": "",
+    "code": "",
+    "citation": "@article{pretzer2022impact,\r\n author = {Pretzer-Aboff, Ingrid and Elswick, RK and Watson, Amanda and Sun, Minglong and Jung, Woosub and Koltermann, Ken and Zhou, Gang and Cloud, Leslie},\r\n journal = {Innovation in Aging},\r\n number = {Suppl 1},\r\n pages = {596},\r\n publisher = {Oxford University Press},\r\n title = {IMPACT OF VIBRATION ON TREMOR IN OLDER ADULTS WITH PARKINSON’S DISEASE},\r\n volume = {6},\r\n year = {2022}\r\n}\r\n",
+    "featuredImage": "/publications/pretzer-2022-impact/featured.png",
+    "folder": "pretzer-2022-impact"
+  },
+  {
+    "id": "watson-2022-medical",
+    "title": "Medical Cyber-Physical Systems: IoMT Applications and Challenges",
+    "authors": "Amanda Watson, Jean Park, Sydney Pugh, Oleg Sokolsky, James Weimer, Insup Lee",
+    "venue": "*2022 56th Asilomar Conference on Signals, Systems, and Computers*",
+    "year": 2021,
+    "date": "2022-01-01",
+    "publicationTypes": [
+      "paper-conference"
+    ],
+    "abstract": "",
+    "pdf": "/publications/watson-2022-medical/watson-2022-medical.pdf",
+    "poster": "https://amandawatson.org/publication/watson-2022-medical/Asilomar.pdf",
+    "slides": "https://amandawatson.org/publication/watson-2022-medical/ASILOMAR2.pdf",
+    "code": "",
+    "citation": "@inproceedings{watson2022medical,\r\n author = {Watson, Amanda and Park, Jean and Pugh, Sydney and Sokolsky, Oleg and Weimer, James and Lee, Insup},\r\n booktitle = {2022 56th Asilomar Conference on Signals, Systems, and Computers},\r\n organization = {IEEE},\r\n pages = {998--1004},\r\n title = {Medical Cyber-Physical Systems: IoMT Applications and Challenges},\r\n year = {2022}\r\n}\r\n",
+    "featuredImage": "/publications/watson-2022-medical/featured.png",
+    "folder": "watson-2022-medical"
+  },
+  {
+    "id": "watson-2021-magnetic",
+    "title": "Magnetic-based motion monitoring for two objects sharing common joint",
+    "authors": "Amanda Watson, Andrew Lyubovsky, Gang Zhou",
+    "venue": "*Google Patents*",
+    "year": 2021,
+    "date": "2021-11-01",
+    "publicationTypes": [
+      "manuscript"
+    ],
+    "abstract": "",
+    "pdf": "/publications/watson-2021-magnetic/watson-2021-magnetic.pdf",
+    "poster": "",
+    "slides": "",
+    "code": "",
+    "citation": "@misc{watson2021magnetic,\r\n author = {Watson, Amanda and Lyubovsky, Andrew and Zhou, Gang},\r\n month = {November~9},\r\n note = {US Patent 11,169,001},\r\n publisher = {Google Patents},\r\n title = {Magnetic-based motion monitoring for two objects sharing common joint},\r\n year = {2021}\r\n}\r\n",
+    "featuredImage": "/publications/watson-2021-magnetic/featured.png",
+    "folder": "watson-2021-magnetic"
+  },
+  {
+    "id": "choi-2021-vitalcore",
+    "title": "Vitalcore: Analytics and support dashboard for medical device integration",
+    "authors": "Hyonyoung Choi, Amanda Lor, Mike Megonegal, Xiayan Ji, Amanda Watson, James Weimer, Insup Lee",
+    "venue": "*2021 IEEE/ACM Conference on Connected Health: Applications, Systems and Engineering Technologies (CHASE)*",
+    "year": 2020,
+    "date": "2021-01-01",
+    "publicationTypes": [
+      "paper-conference"
+    ],
+    "abstract": "",
+    "pdf": "/publications/choi-2021-vitalcore/choi-2021-vitalcore.pdf",
+    "poster": "",
+    "slides": "https://amandawatson.org/publication/choi-2021-vitalcore/VitalCore_Slides.pdf",
+    "code": "",
+    "citation": "@inproceedings{choi2021vitalcore,\r\n  title={Vitalcore: Analytics and support dashboard for medical device integration},\r\n  author={Choi, Hyonyoung and Lor, Amanda and Megonegal, Mike and Ji, Xiayan and Watson, Amanda and Weimer, James and Lee, Insup},\r\n  booktitle={2021 IEEE/ACM Conference on Connected Health: Applications, Systems and Engineering Technologies (CHASE)},\r\n  pages={82--86},\r\n  year={2021},\r\n  organization={IEEE}\r\n}",
+    "featuredImage": "/publications/choi-2021-vitalcore/featured.png",
+    "folder": "choi-2021-vitalcore"
+  },
+  {
+    "id": "jung-2021-lax",
+    "title": "LAX-Score: Quantifying Team Performance in Lacrosse and Exploring IMU Features towards Performance Enhancement",
+    "authors": "Woosub Jung, Amanda Watson, Scott Kuehn, Erik Korem, Ken Koltermann, Minglong Sun, Shuangquan Wang, Zhenming Liu, Gang Zhou",
+    "venue": "*Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies*",
+    "year": 2020,
+    "date": "2021-01-01",
+    "publicationTypes": [
+      "article-journal"
+    ],
+    "abstract": "",
+    "pdf": "/publications/jung-2021-lax/jung-2021-lax.pdf",
+    "poster": "",
+    "slides": "",
+    "code": "",
+    "citation": "@article{jung2021lax,\r\n  title={Lax-score: Quantifying team performance in lacrosse and exploring imu features towards performance enhancement},\r\n  author={Jung, Woosub and Watson, Amanda and Kuehn, Scott and Korem, Erik and Koltermann, Ken and Sun, Minglong and Wang, Shuangquan and Liu, Zhenming and Zhou, Gang},\r\n  journal={Proceedings of the ACM on interactive, mobile, wearable and ubiquitous technologies},\r\n  volume={5},\r\n  number={3},\r\n  pages={1--28},\r\n  year={2021},\r\n  publisher={ACM New York, NY, USA}\r\n}",
+    "featuredImage": "/publications/jung-2021-lax/featured.jpg",
+    "folder": "jung-2021-lax"
+  },
+  {
+    "id": "lu-2021-fred",
+    "title": "FRED: Fall Risk Evaluation Database Based on Electronic Health Record Data",
+    "authors": "Pengyuan Lu, Xian Li, Sooyong Jang, Alexander Lee, Sydney Pugh, Amanda Watson, Ragnhildur I Bjarnadóttir, Robert Lucero, George Demiris, Ani Nenkova,  others",
+    "venue": "*2021 IEEE/ACM Conference on Connected Health: Applications, Systems and Engineering Technologies (CHASE)*",
+    "year": 2020,
+    "date": "2021-01-01",
+    "publicationTypes": [
+      "paper-conference"
+    ],
+    "abstract": "",
+    "pdf": "/publications/lu-2021-fred/lu-2021-fred.pdf",
+    "poster": "",
+    "slides": "",
+    "code": "",
+    "citation": "@inproceedings{lu2021fred,\r\n  title={FRED: Fall Risk Evaluation Database Based on Electronic Health Record Data},\r\n  author={Lu, Pengyuan and Li, Xian and Jang, Sooyong and Lee, Alexander and Pugh, Sydney and Watson, Amanda and Bjarnad{\\'o}ttir, Ragnhildur I and Lucero, Robert and Demiris, George and Nenkova, Ani and others},\r\n  booktitle={2021 IEEE/ACM Conference on Connected Health: Applications, Systems and Engineering Technologies (CHASE)},\r\n  pages={130--131},\r\n  year={2021},\r\n  organization={IEEE}\r\n}",
+    "featuredImage": "/publications/lu-2021-fred/featured.png",
+    "folder": "lu-2021-fred"
+  },
+  {
+    "id": "lu-2021-mako",
+    "title": "Mako: Semi-supervised continual learning with minimal labeled data via data programming",
+    "authors": "Pengyuan Lu, Seungwon Lee, Amanda Watson, David Kent, Insup Lee, Eric Eatson, James Weimer",
+    "venue": "",
+    "year": 2020,
+    "date": "2021-01-01",
+    "publicationTypes": [
+      "article-journal"
+    ],
+    "abstract": "",
+    "pdf": "/publications/lu-2021-mako/lu-2021-mako.pdf",
+    "poster": "",
+    "slides": "",
+    "code": "",
+    "citation": "@article{lumako,\r\n  title={Mako: Semi-supervised continual learning with minimal labeled data via data programming},\r\n  author={Lu, Pengyuan and Lee, Seungwon and Watson, Amanda and Kent, David and Lee, Insup and EATON, ERIC and Weimer, James}\r\n}",
+    "featuredImage": "/publications/lu-2021-mako/featured.png",
+    "folder": "lu-2021-mako"
+  },
+  {
+    "id": "sun-2021-tremorsense",
+    "title": "TremorSense: Tremor Detection for Parkinson's Disease Using Convolutional Neural Network",
+    "authors": "Minglong Sun, Amanda Watson, Gina Blackwell, Woosub Jung, Shuangquan Wang, Kenneth Koltermann, Noah Helm, Gang Zhou, Leslie Cloud, Ingrid Pretzer-Aboff",
+    "venue": "*2021 IEEE/ACM Conference on Connected Health: Applications, Systems and Engineering Technologies (CHASE)*",
+    "year": 2020,
+    "date": "2021-01-01",
+    "publicationTypes": [
+      "paper-conference"
+    ],
+    "abstract": "",
+    "pdf": "/publications/sun-2021-tremorsense/sun-2021-tremorsense.pdf",
+    "poster": "",
+    "slides": "",
+    "code": "",
+    "citation": "@inproceedings{sun2021tremorsense,\r\n author = {Sun, Minglong and Watson, Amanda and Blackwell, Gina and Jung, Woosub and Wang, Shuangquan and Koltermann, Kenneth and Helm, Noah and Zhou, Gang and Cloud, Leslie and Pretzer-Aboff, Ingrid},\r\n booktitle = {2021 IEEE/ACM Conference on Connected Health: Applications, Systems and Engineering Technologies (CHASE)},\r\n organization = {IEEE},\r\n pages = {1--10},\r\n title = {TremorSense: Tremor Detection for Parkinson's Disease Using Convolutional Neural Network},\r\n year = {2021}\r\n}\r\n",
+    "featuredImage": "/publications/sun-2021-tremorsense/featured.png",
+    "folder": "sun-2021-tremorsense"
+  },
+  {
+    "id": "wang-2021-inferring",
+    "title": "Inferring food types through sensing and characterizing mastication dynamics",
+    "authors": "Shuangquan Wang, Gang Zhou, Jiexiong Guan, Yongsen Ma, Zhenming Liu, Bin Ren, Hongyang Zhao, Amanda Watson, Woosub Jung",
+    "venue": "*Smart Health*",
+    "year": 2020,
+    "date": "2021-01-01",
+    "publicationTypes": [
+      "article-journal"
+    ],
+    "abstract": "",
+    "pdf": "/publications/wang-2021-inferring/wang-2021-inferring.pdf",
+    "poster": "",
+    "slides": "",
+    "code": "",
+    "citation": "@article{wang2021inferring,\r\n author = {Wang, Shuangquan and Zhou, Gang and Guan, Jiexiong and Ma, Yongsen and Liu, Zhenming and Ren, Bin and Zhao, Hongyang and Watson, Amanda and Jung, Woosub},\r\n journal = {Smart Health},\r\n pages = {100191},\r\n publisher = {Elsevier},\r\n title = {Inferring food types through sensing and characterizing mastication dynamics},\r\n volume = {20},\r\n year = {2021}\r\n}\r\n",
+    "featuredImage": "/publications/wang-2021-inferring/featured.png",
+    "folder": "wang-2021-inferring"
+  },
+  {
+    "id": "wang-2021-wearable",
+    "title": "Wearable motion sensor-based chewing side detection",
+    "authors": "Shuangquan Wang, Gang Zhou, Amanda Watson, Lei Xie, Minglong Sun, Woosub Jung",
+    "venue": "*Smart Health*",
+    "year": 2020,
+    "date": "2021-01-01",
+    "publicationTypes": [
+      "article-journal"
+    ],
+    "abstract": "",
+    "pdf": "/publications/wang-2021-wearable/wang-2021-wearable.pdf",
+    "poster": "",
+    "slides": "",
+    "code": "",
+    "citation": "@article{wang2021wearable,\r\n author = {Wang, Shuangquan and Zhou, Gang and Watson, Amanda and Xie, Lei and Sun, Minglong and Jung, Woosub},\r\n journal = {Smart Health},\r\n pages = {100205},\r\n publisher = {Elsevier},\r\n title = {Wearable motion sensor-based chewing side detection},\r\n volume = {21},\r\n year = {2021}\r\n}\r\n",
+    "featuredImage": "/publications/wang-2021-wearable/featured.png",
+    "folder": "wang-2021-wearable"
+  },
+  {
+    "id": "watson-2021-magneto",
+    "title": "Magneto: joint angle analysis using an electromagnet-based sensing method",
+    "authors": "Amanda Watson, Andrew Lyubovsky, Kenneth Koltermann, Gang Zhou",
+    "venue": "*Proceedings of the 20th International Conference on Information Processing in Sensor Networks (co-located with CPS-IoT Week 2021)*",
+    "year": 2020,
+    "date": "2021-01-01",
+    "publicationTypes": [
+      "paper-conference"
+    ],
+    "abstract": "",
+    "pdf": "/publications/watson-2021-magneto/watson-2021-magneto.pdf",
+    "poster": "",
+    "slides": "https://amandawatson.org/publication/watson-2021-magneto/Magneto - IPSN.pdf",
+    "code": "",
+    "citation": "@inproceedings{watson2021magneto,\r\n author = {Watson, Amanda and Lyubovsky, Andrew and Koltermann, Kenneth and Zhou, Gang},\r\n booktitle = {Proceedings of the 20th International Conference on Information Processing in Sensor Networks (co-located with CPS-IoT Week 2021)},\r\n pages = {1--14},\r\n title = {Magneto: joint angle analysis using an electromagnet-based sensing method},\r\n year = {2021}\r\n}\r\n",
+    "featuredImage": "/publications/watson-2021-magneto/featured.png",
+    "folder": "watson-2021-magneto"
+  },
+  {
+    "id": "watson-2021-raproto",
+    "title": "Raproto: an open source platform for rapid prototyping of wearable medical devices",
+    "authors": "Amanda Watson, Hyonyoung Choi, Insup Lee, James Weimer",
+    "venue": "*Proceedings of the Workshop on Medical Cyber Physical Systems and Internet of Medical Things*",
+    "year": 2020,
+    "date": "2021-01-01",
+    "publicationTypes": [
+      "paper-conference"
+    ],
+    "abstract": "",
+    "pdf": "/publications/watson-2021-raproto/watson-2021-raproto.pdf",
+    "poster": "",
+    "slides": "https://amandawatson.org/publication/watson-2021-raproto/Raproto.pdf",
+    "code": "https://github.com/weimerj/Raproto-Tizen",
+    "citation": "@inproceedings{watson2021raproto,\r\n author = {Watson, Amanda and Choi, Hyonyoung and Lee, Insup and Weimer, James},\r\n booktitle = {Proceedings of the Workshop on Medical Cyber Physical Systems and Internet of Medical Things},\r\n pages = {1--6},\r\n title = {Raproto: an open source platform for rapid prototyping of wearable medical devices},\r\n year = {2021}\r\n}\r\n",
+    "featuredImage": "/publications/watson-2021-raproto/featured.png",
+    "folder": "watson-2021-raproto"
+  },
+  {
+    "id": "watson-2021-rt",
+    "title": "Rt-acl: Identification of high-risk youth patients and their most significant risk factors to reduce anterior cruciate ligament reinjury risk",
+    "authors": "Amanda Watson, Pengyuan Lu, Elliot Greenberg, J Todd R Lawrence, Theodore J Ganley, Insup Lee, James Weimer",
+    "venue": "*2021 IEEE/ACM Conference on Connected Health: Applications, Systems and Engineering Technologies (CHASE)*",
+    "year": 2020,
+    "date": "2021-01-01",
+    "publicationTypes": [
+      "paper-conference"
+    ],
+    "abstract": "",
+    "pdf": "/publications/watson-2021-rt/watson-2021-rt.pdf",
+    "poster": "",
+    "slides": "https://amandawatson.org/publication/watson-2021-rt/ACLRT.pdf",
+    "code": "",
+    "citation": "@inproceedings{watson2021rt,\r\n author = {Watson, Amanda and Lu, Pengyuan and Greenberg, Elliot and Lawrence, J Todd R and Ganley, Theodore J and Lee, Insup and Weimer, James},\r\n booktitle = {2021 IEEE/ACM Conference on Connected Health: Applications, Systems and Engineering Technologies (CHASE)},\r\n organization = {IEEE},\r\n pages = {35--45},\r\n title = {Rt-acl: Identification of high-risk youth patients and their most significant risk factors to reduce anterior cruciate ligament reinjury risk},\r\n year = {2021}\r\n}\r\n",
+    "featuredImage": "/publications/watson-2021-rt/featured.png",
+    "folder": "watson-2021-rt"
+  },
+  {
+    "id": "sun-2020-wearable",
+    "title": "Wearable computing of freezing of gait in parkinson's disease: a survey",
+    "authors": "Minglong Sun, Amanda Watson, Gang Zhou",
+    "venue": "*Smart Health*",
+    "year": 2019,
+    "date": "2020-01-01",
+    "publicationTypes": [
+      "article-journal"
+    ],
+    "abstract": "",
+    "pdf": "/publications/sun-2020-wearable/sun-2020-wearable.pdf",
+    "poster": "",
+    "slides": "",
+    "code": "",
+    "citation": "@article{sun2020wearable,\r\n author = {Sun, Minglong and Watson, Amanda and Zhou, Gang},\r\n journal = {Smart Health},\r\n pages = {100143},\r\n publisher = {Elsevier},\r\n title = {Wearable computing of freezing of gait in parkinson's disease: a survey},\r\n volume = {18},\r\n year = {2020}\r\n}\r\n",
+    "featuredImage": "/publications/sun-2020-wearable/featured.png",
+    "folder": "sun-2020-wearable"
+  },
+  {
+    "id": "watson-2020-tracknee",
+    "title": "TracKnee: Knee angle measurement using stretchable conductive fabric sensors",
+    "authors": "Amanda Watson, Minglong Sun, Samhita Pendyal, Gang Zhou",
+    "venue": "*Smart Health*",
+    "year": 2019,
+    "date": "2020-01-01",
+    "publicationTypes": [
+      "article-journal"
+    ],
+    "abstract": "",
+    "pdf": "/publications/watson-2020-tracknee/watson-2020-tracknee.pdf",
+    "poster": "",
+    "slides": "https://amandawatson.org/publication/watson-2020-tracknee/TracKnee Presentation.pdf",
+    "code": "",
+    "citation": "@article{watson2020tracknee,\r\n author = {Watson, Amanda and Sun, Minglong and Pendyal, Samhita and Zhou, Gang},\r\n journal = {Smart Health},\r\n pages = {100092},\r\n publisher = {Elsevier},\r\n title = {TracKnee: Knee angle measurement using stretchable conductive fabric sensors},\r\n volume = {15},\r\n year = {2020}\r\n}\r\n",
+    "featuredImage": "/publications/watson-2020-tracknee/featured.png",
+    "folder": "watson-2020-tracknee"
+  },
+  {
+    "id": "watson-2020-wearable",
+    "title": "Wearable Technology for Healthcare and Athletic Performance",
+    "authors": "Amanda Watson",
+    "venue": "*The College of William and Mary*",
+    "year": 2019,
+    "date": "2020-01-01",
+    "publicationTypes": [
+      "book"
+    ],
+    "abstract": "",
+    "pdf": "/publications/watson-2020-wearable/watson-2020-wearable.pdf",
+    "poster": "",
+    "slides": "",
+    "code": "",
+    "citation": "@book{watson2020wearable,\r\n author = {Watson, Amanda},\r\n publisher = {The College of William and Mary},\r\n title = {Wearable Technology for Healthcare and Athletic Performance},\r\n year = {2020}\r\n}\r\n",
+    "featuredImage": null,
+    "folder": "watson-2020-wearable"
+  },
+  {
+    "id": "watson-2019-bbaid",
+    "title": "BBAid: Using smartwatches to improve back blows",
+    "authors": "Amanda Watson, Gang Zhou",
+    "venue": "*Smart Health*",
+    "year": 2018,
+    "date": "2019-01-01",
+    "publicationTypes": [
+      "article-journal"
+    ],
+    "abstract": "",
+    "pdf": "/publications/watson-2019-bbaid/watson-2019-bbaid.pdf",
+    "poster": "",
+    "slides": "",
+    "code": "",
+    "citation": "@article{watson2019bbaid,\r\n author = {Watson, Amanda and Zhou, Gang},\r\n journal = {Smart Health},\r\n pages = {100067},\r\n publisher = {Elsevier},\r\n title = {BBAid: Using smartwatches to improve back blows},\r\n volume = {13},\r\n year = {2019}\r\n}\r\n",
+    "featuredImage": "/publications/watson-2019-bbaid/featured.png",
+    "folder": "watson-2019-bbaid"
+  },
+  {
+    "id": "watson-2019-breathez",
+    "title": "BreathEZ: Using smartwatches to improve choking first aid",
+    "authors": "Amanda Watson, Gang Zhou",
+    "venue": "*Smart Health*",
+    "year": 2018,
+    "date": "2019-01-01",
+    "publicationTypes": [
+      "article-journal"
+    ],
+    "abstract": "",
+    "pdf": "/publications/watson-2019-breathez/watson-2019-breathez.pdf",
+    "poster": "",
+    "slides": "",
+    "code": "",
+    "citation": "@article{watson2019breathez,\r\n author = {Watson, Amanda and Zhou, Gang},\r\n journal = {Smart Health},\r\n pages = {100058},\r\n publisher = {Elsevier},\r\n title = {BreathEZ: Using smartwatches to improve choking first aid},\r\n volume = {13},\r\n year = {2019}\r\n}\r\n",
+    "featuredImage": "/publications/watson-2019-breathez/featured.png",
+    "folder": "watson-2019-breathez"
+  },
+  {
+    "id": "zhao-2018-mobigesture",
+    "title": "MobiGesture: Mobility-aware hand gesture recognition for healthcare",
+    "authors": "Hongyang Zhao, Yongsen Ma, Shuangquan Wang, Amanda Watson, Gang Zhou",
+    "venue": "*Smart Health*",
+    "year": 2017,
+    "date": "2018-01-01",
+    "publicationTypes": [
+      "article-journal"
+    ],
+    "abstract": "",
+    "pdf": "/publications/zhao-2018-mobigesture/zhao-2018-mobigesture.pdf",
+    "poster": "",
+    "slides": "",
+    "code": "",
+    "citation": "@article{zhao2018mobigesture,\r\n author = {Zhao, Hongyang and Ma, Yongsen and Wang, Shuangquan and Watson, Amanda and Zhou, Gang},\r\n journal = {Smart Health},\r\n pages = {129--143},\r\n publisher = {Elsevier},\r\n title = {MobiGesture: Mobility-aware hand gesture recognition for healthcare},\r\n volume = {9},\r\n year = {2018}\r\n}\r\n",
+    "featuredImage": "/publications/zhao-2018-mobigesture/featured.png",
+    "folder": "zhao-2018-mobigesture"
+  },
+  {
+    "id": "watson-2016-microsleep",
+    "title": "Microsleep prediction using an EKG capable heart rate monitor",
+    "authors": "Amanda Watson, Gang Zhou",
+    "venue": "*2016 IEEE First International Conference on Connected Health: Applications, Systems and Engineering Technologies (CHASE)*",
+    "year": 2015,
+    "date": "2016-01-01",
+    "publicationTypes": [
+      "paper-conference"
+    ],
+    "abstract": "",
+    "pdf": "/publications/watson-2016-microsleep/watson-2016-microsleep.pdf",
+    "poster": "https://amandawatson.org/publication/watson-2016-microsleep/Chase Poster.pdf",
+    "slides": "",
+    "code": "",
+    "citation": "@inproceedings{watson2016microsleep,\r\n author = {Watson, Amanda and Zhou, Gang},\r\n booktitle = {2016 IEEE First International Conference on Connected Health: Applications, Systems and Engineering Technologies (CHASE)},\r\n organization = {IEEE},\r\n pages = {328--329},\r\n title = {Microsleep prediction using an EKG capable heart rate monitor},\r\n year = {2016}\r\n}\r\n",
+    "featuredImage": "/publications/watson-2016-microsleep/featured.png",
+    "folder": "watson-2016-microsleep"
+  }
+]
