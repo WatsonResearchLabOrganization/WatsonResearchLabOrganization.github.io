@@ -22,6 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+.VSCodeCounter/*
 
 # Environment variables
 .env
@@ -29,6 +30,10 @@ dist-ssr
 .env.development.local
 .env.test.local
 .env.production.local
+
+# Generated files (auto-generated from markdown)
+src/data/publications-generated.json
+src/data/news-generated.json
 
 # OS files
 Thumbs.db
