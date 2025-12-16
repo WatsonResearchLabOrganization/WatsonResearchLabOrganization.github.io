@@ -1,0 +1,86 @@
+[
+  {
+    "id": "hamid-2025-bp",
+    "title": "Skin Tone Adaptive Blood Pressure Monitoring with Wearable Photoplethysmography",
+    "authors": "T. Hamid, A. Watson",
+    "venue": "IEEE Transactions on Biomedical Engineering, 2025",
+    "year": 2025,
+    "pdf": "",
+    "slides": "",
+    "poster": "",
+    "code": "",
+    "citation": "T. Hamid and A. Watson, 'Skin Tone Adaptive Blood Pressure Monitoring with Wearable Photoplethysmography,' IEEE Trans. Biomed. Eng., 2025."
+  },
+  {
+    "id": "lingamoorthy-2025-AISI",
+    "title": "AI-Driven Spectroscopy for Non-Invasive Glucose Monitoring",
+    "authors": "S. Lingamoorthy, T. Hamid, A. Watson",
+    "venue": "Artificial Intelligence in Medicine, 2025",
+    "year": 2025,
+    "pdf": "",
+    "slides": "",
+    "poster": "",
+    "code": "",
+    "citation": "S. Lingamoorthy, T. Hamid, and A. Watson, 'AI-Driven Spectroscopy for Non-Invasive Glucose Monitoring,' Artif. Intell. Med., 2025."
+  },
+  {
+    "id": "watson-2023-lumos",
+    "title": "Lumos: A Wearable, Open-Source Platform for Health Monitoring",
+    "authors": "A. Watson, et al.",
+    "venue": "ACM UbiComp/IMWUT, 2023",
+    "year": 2023,
+    "pdf": "",
+    "slides": "",
+    "poster": "",
+    "code": "https://github.com/watson-research-lab/lumos",
+    "citation": "A. Watson et al., 'Lumos: A Wearable, Open-Source Platform for Health Monitoring,' Proc. ACM Interact. Mob. Wearable Ubiquitous Technol., vol. 7, no. 3, 2023."
+  },
+  {
+    "id": "lingamoorthy-2024-IJCAI",
+    "title": "Context-Aware Feature Learning for Wearable Health Monitoring",
+    "authors": "S. Lingamoorthy, P. Flores, A. Watson",
+    "venue": "IJCAI 2024",
+    "year": 2024,
+    "pdf": "",
+    "slides": "",
+    "poster": "",
+    "code": "",
+    "citation": "S. Lingamoorthy, P. Flores, and A. Watson, 'Context-Aware Feature Learning for Wearable Health Monitoring,' in Proc. IJCAI, 2024."
+  },
+  {
+    "id": "hamid-2024-raproto",
+    "title": "RaProto: Rapid Prototyping Platform for Wearable Biosensors",
+    "authors": "T. Hamid, H. Brown, A. Watson",
+    "venue": "IEEE BSN 2024",
+    "year": 2024,
+    "pdf": "",
+    "slides": "",
+    "poster": "",
+    "code": "",
+    "citation": "T. Hamid, H. Brown, and A. Watson, 'RaProto: Rapid Prototyping Platform for Wearable Biosensors,' in Proc. IEEE BSN, 2024."
+  },
+  {
+    "id": "lu-2022-bridging",
+    "title": "Bridging the Gap: Mobile Health Apps for Chronic Disease Management",
+    "authors": "S. Lu, E. Courtney, A. Watson",
+    "venue": "Journal of Medical Internet Research, 2022",
+    "year": 2022,
+    "pdf": "",
+    "slides": "",
+    "poster": "",
+    "code": "",
+    "citation": "S. Lu, E. Courtney, and A. Watson, 'Bridging the Gap: Mobile Health Apps for Chronic Disease Management,' J. Med. Internet Res., vol. 24, no. 8, 2022."
+  },
+  {
+    "id": "watson-2021-raproto",
+    "title": "RaProto: A Framework for Low-Cost Wearable Device Development",
+    "authors": "A. Watson, J. Nguyen",
+    "venue": "ACM SenSys 2021",
+    "year": 2021,
+    "pdf": "",
+    "slides": "",
+    "poster": "",
+    "code": "https://github.com/watson-research-lab/raproto",
+    "citation": "A. Watson and J. Nguyen, 'RaProto: A Framework for Low-Cost Wearable Device Development,' in Proc. ACM SenSys, 2021."
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "id": "quals-2024",
+    "title": "Tarek Hamid and Haoran Zhang Pass Qualifying Exams",
+    "date": "2024-11-15",
+    "category": "Achievements",
+    "content": "Congratulations to Tarek Hamid and Haoran Zhang for successfully passing their PhD qualifying exams! Their proposals on advanced biosensor systems and wearable health monitoring received excellent feedback from the committee.",
+    "image": "",
+    "link": ""
+  },
+  {
+    "id": "bsn-2024",
+    "title": "Dr. Watson Presents at BSN 2024",
+    "date": "2024-10-08",
+    "category": "Conferences",
+    "content": "Dr. Amanda Watson delivered an invited talk at the IEEE Body Sensor Networks (BSN) Conference 2024, sharing recent advances in skin tone adaptive sensing for wearable devices.",
+    "image": "",
+    "link": ""
+  },
+  {
+    "id": "presentations-2024",
+    "title": "Elizabeth Courtney and Patricia Flores Present Research",
+    "date": "2024-09-20",
+    "category": "Presentations",
+    "content": "PhD students Elizabeth Courtney and Patricia Flores presented their research at the Virginia Health Innovation Summit. Liz showcased her work on maternal health wearables, while Patricia demonstrated AI methods for health data analysis.",
+    "image": "",
+    "link": ""
+  },
+  {
+    "id": "sharon-award",
+    "title": "Sharon Lu Receives Outstanding MS Student Award",
+    "date": "2024-08-15",
+    "category": "Awards",
+    "content": "Congratulations to Sharon Lu for receiving the ECE Department's Outstanding MS Student Award in recognition of her excellent research contributions to mobile health applications.",
+    "image": "",
+    "link": ""
+  },
+  {
+    "id": "ubicomp-2025",
+    "title": "Paper Accepted to UBICOMP 2025",
+    "date": "2024-12-01",
+    "category": "Publications",
+    "content": "Our paper on context-aware wearable health monitoring has been accepted to UBICOMP 2025! This work explores how environmental and activity context can improve biosensor accuracy.",
+    "image": "",
+    "link": ""
+  },
+  {
+    "id": "icassp-2025",
+    "title": "Two Papers Accepted to ICASSP 2025",
+    "date": "2024-11-30",
+    "category": "Publications",
+    "content": "We're excited to announce two paper acceptances at ICASSP 2025, covering advanced signal processing techniques for wearable biosensors and noise reduction in mobile health data.",
+    "image": "",
+    "link": ""
+  },
+  {
+    "id": "embc-2025",
+    "title": "Research Featured at EMBC 2025",
+    "date": "2024-11-25",
+    "category": "Publications",
+    "content": "Our work on clinical applications of wearable lactate monitoring will be presented at the International Conference on Engineering in Medicine and Biology (EMBC) 2025.",
+    "image": "",
+    "link": ""
+  }
+]
