@@ -1,42 +1,12 @@
 [
   {
-    "id": "nsf-career",
-    "title": "NSF CAREER: Wearable Biosensor Systems",
-    "agency": "National Science Foundation",
-    "amount": "$500,000",
+    "id": "booz-allen-hamilton",
+    "title": "Booz Allen Hamilton: WRL Research Grant",
+    "agency": "Booz Allen Hamilton",
+    "amount": "$1,000,000",
     "status": "Active",
-    "period": "2023-2028",
-    "description": "Developing next-generation wearable biosensor systems for continuous health monitoring in everyday environments.",
-    "tags": ["Biosensors", "Wearables", "Health Monitoring"]
-  },
-  {
-    "id": "nih-diabetes",
-    "title": "NIH: Non-invasive Glucose Monitoring",
-    "agency": "National Institutes of Health",
-    "amount": "$750,000",
-    "status": "Active",
-    "period": "2022-2026",
-    "description": "Developing non-invasive glucose monitoring technologies for diabetes management using advanced spectroscopy techniques.",
-    "tags": ["Diabetes", "Glucose Monitoring", "Spectroscopy"]
-  },
-  {
-    "id": "coulter-lactate",
-    "title": "Coulter Foundation: Lactate Monitoring Device",
-    "agency": "Coulter Foundation",
-    "amount": "$100,000",
-    "status": "Active",
-    "period": "2024-2025",
-    "description": "Translational research to develop a clinical lactate monitoring device for critical care applications.",
-    "tags": ["Lactate", "Critical Care", "Medical Device"]
-  },
-  {
-    "id": "uva-seed",
-    "title": "UVA SRG: AI for Wearable Health Data",
-    "agency": "University of Virginia",
-    "amount": "$50,000",
-    "status": "Active",
-    "period": "2024-2025",
-    "description": "Exploring machine learning approaches for analyzing multi-modal wearable health data.",
-    "tags": ["Machine Learning", "Data Analysis", "Wearables"]
+    "period": "2023-2026",
+    "description": "Promoting Watson Research Lab initiatives.",
+    "tags": ["Research Grant", "Watson Research Lab"]
   }
 ]
