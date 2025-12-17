@@ -45,7 +45,7 @@ social:
     link: 'mailto:rjr5dn@virginia.edu'
   - icon: linkedin
     icon_pack: fab
-    link: www.linkedin.com/in/jane-byun-9439222a3
+    link: https://www.linkedin.com/in/jane-byun-9439222a3
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true

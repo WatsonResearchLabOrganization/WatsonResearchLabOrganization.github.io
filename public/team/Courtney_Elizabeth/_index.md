@@ -48,7 +48,7 @@ social:
     link: https://scholar.google.com/citations?user=e_2fICgAAAAJ&hl=en&oi=sra
   - icon: linkedin
     icon_pack: fab
-    link: www.linkedin.com/in/elizabeth-courtney-629933270
+    link: https://www.linkedin.com/in/elizabeth-courtney-629933270
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true

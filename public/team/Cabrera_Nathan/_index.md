@@ -60,7 +60,7 @@ social:
   #   link: https://github.com/aawatson22
   - icon: linkedin
     icon_pack: fab
-    link: hhttps://www.linkedin.com/in/nathan-cabrera-2b0b42287/
+    link: https://www.linkedin.com/in/nathan-cabrera-2b0b42287/
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
