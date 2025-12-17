@@ -76,6 +76,38 @@ const generateTeam = () => {
         education = data.education
       }
       
+      // Parse social links from Hugo format
+      let email = data.email || ''
+      let website = data.website || data.external_link || ''
+      let linkedin = data.linkedin || ''
+      let github = data.github || ''
+      let scholar = data.scholar || data.google_scholar || ''
+      let twitter = data.twitter || ''
+      
+      if (data.social && Array.isArray(data.social)) {
+        data.social.forEach(social => {
+          if (!social.link) return
+          
+          const link = social.link
+          const icon = social.icon?.toLowerCase() || ''
+          
+          // Extract social links based on icon or URL pattern
+          if (icon === 'envelope' || link.startsWith('mailto:')) {
+            email = link.replace('mailto:', '')
+          } else if (icon === 'linkedin' || link.includes('linkedin.com')) {
+            linkedin = link
+          } else if (icon === 'github' || link.includes('github.com')) {
+            github = link
+          } else if (icon === 'google-scholar' || icon === 'scholar' || link.includes('scholar.google.com')) {
+            scholar = link
+          } else if (icon === 'twitter' || link.includes('twitter.com') || link.includes('x.com')) {
+            twitter = link
+          } else if (icon === 'globe' || icon === 'link') {
+            website = link
+          }
+        })
+      }
+      
       // Build team member object
       teamMembers.push({
         id: id,
@@ -85,12 +117,12 @@ const generateTeam = () => {
         image: avatarImage,
         bio: data.bio || data.summary || '',
         fullBio: content.trim() || data.bio || '',
-        email: data.email || '',
-        website: data.website || data.external_link || '',
-        linkedin: data.linkedin || '',
-        github: data.github || '',
-        scholar: data.scholar || data.google_scholar || '',
-        twitter: data.twitter || '',
+        email: email,
+        website: website,
+        linkedin: linkedin,
+        github: github,
+        scholar: scholar,
+        twitter: twitter,
         interests: data.interests || [],
         education: education,
         organization: data.organization || {
