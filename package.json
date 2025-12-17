@@ -5,11 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm run generate:pubs && npm run generate:news && vite build",
+    "build": "npm run generate:all && vite build",
     "preview": "vite preview",
     "generate:pubs": "node scripts/generatePublications.js",
     "generate:news": "node scripts/generateNews.js",
-    "generate:all": "npm run generate:pubs && npm run generate:news"
+    "generate:team": "node scripts/generateTeam.js",
+    "generate:all": "npm run generate:pubs && npm run generate:news && npm run generate:team"
   },
   "dependencies": {
     "framer-motion": "^11.0.5",

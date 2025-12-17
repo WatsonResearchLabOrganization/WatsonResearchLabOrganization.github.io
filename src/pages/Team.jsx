@@ -1,6 +1,6 @@
 import { motion, AnimatePresence } from 'framer-motion'
 import { useState } from 'react'
-import teamData from '../data/team.json'
+import teamData from '../data/team-generated.json'
 
 export default function Team() {
   const [selectedMember, setSelectedMember] = useState(null)
@@ -45,7 +45,7 @@ export default function Team() {
             <div className="max-w-7xl mx-auto">
               <h2 className="text-center text-uva-blue mb-12">{role}</h2>
               
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
                 {groupedTeam[role].map((member, index) => (
                   <motion.div
                     key={member.id}
@@ -68,28 +68,30 @@ export default function Team() {
                       )}
                     </div>
                     
-                    <div className="p-6">
-                      <h3 className="text-xl font-semibold mb-1 text-gray-900">{member.name}</h3>
-                      <p className="text-uva-blue font-medium mb-3">{member.title}</p>
+                    <div className="p-4">
+                      <h3 className="text-lg font-semibold mb-1 text-gray-900">{member.name}</h3>
+                      <p className="text-uva-blue text-sm font-medium mb-2">{member.title}</p>
                       
                       {member.bio && (
-                        <p className="text-gray-600 text-sm mb-4">{member.bio}</p>
+                        <p className="text-gray-600 text-xs mb-3 line-clamp-2">{member.bio}</p>
                       )}
 
                       {member.interests && member.interests.length > 0 && (
-                        <div className="mb-4">
-                          <p className="text-sm font-semibold text-gray-700 mb-2">Research Interests:</p>
-                          <div className="flex flex-wrap gap-2">
-                            {member.interests.map((interest, i) => (
-                              <span key={i} className="text-xs bg-gray-100 text-gray-600 px-2 py-1 rounded">
+                        <div className="mb-3">
+                          <div className="flex flex-wrap gap-1">
+                            {member.interests.slice(0, 3).map((interest, i) => (
+                              <span key={i} className="text-xs bg-gray-100 text-gray-600 px-2 py-0.5 rounded">
                                 {interest}
                               </span>
                             ))}
+                            {member.interests.length > 3 && (
+                              <span className="text-xs text-gray-400">+{member.interests.length - 3}</span>
+                            )}
                           </div>
                         </div>
                       )}
 
-                      <div className="flex gap-3">
+                      <div className="flex gap-2 justify-center">
                         {member.email && (
                           <a 
                             href={`mailto:${member.email}`}

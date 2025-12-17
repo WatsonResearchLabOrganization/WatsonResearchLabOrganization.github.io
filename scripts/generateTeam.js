@@ -1,0 +1,129 @@
+import fs from 'fs'
+import path from 'path'
+import matter from 'gray-matter'
+import { fileURLToPath } from 'url'
+
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
+
+const teamDir = path.join(__dirname, '../public/team')
+const outputFile = path.join(__dirname, '../src/data/team-generated.json')
+
+const generateTeam = () => {
+  const teamMembers = []
+  
+  // Get all team member folders
+  const folders = fs.readdirSync(teamDir).filter(file => {
+    const filePath = path.join(teamDir, file)
+    return fs.statSync(filePath).isDirectory()
+  })
+  
+  folders.forEach(folder => {
+    try {
+      const folderPath = path.join(teamDir, folder)
+      
+      // Read _index.md
+      const indexPath = path.join(folderPath, '_index.md')
+      if (!fs.existsSync(indexPath)) {
+        console.warn(`No _index.md found for ${folder}`)
+        return
+      }
+      
+      const mdContent = fs.readFileSync(indexPath, 'utf-8')
+      const { data, content } = matter(mdContent)
+      
+      // Generate id from folder name
+      const id = folder.toLowerCase().replace(/_/g, '-')
+      
+      // Parse name from folder (Last_First format)
+      const nameParts = folder.split('_')
+      const displayName = nameParts.length > 1 
+        ? `${nameParts[1]} ${nameParts[0]}` 
+        : folder.replace(/_/g, ' ')
+      
+      // Check for avatar image
+      let avatarImage = ''
+      const files = fs.readdirSync(folderPath)
+      const avatarFile = files.find(file => {
+        const name = file.toLowerCase()
+        return name === 'avatar.jpg' || name === 'avatar.jpeg' || name === 'avatar.png'
+      })
+      
+      if (avatarFile) {
+        avatarImage = `/team/${folder}/${avatarFile}`
+      }
+      
+      // Parse education from Hugo format to array
+      let education = []
+      if (data.education?.courses) {
+        education = data.education.courses.map(course => {
+          const courseName = String(course.course)
+          const isCurrent = courseName.toLowerCase().includes('current') || 
+                           courseName.toLowerCase().includes('expected') ||
+                           String(course.year).toLowerCase().includes('expected')
+          
+          // Clean up degree name by removing "Current" or "Expected"
+          const cleanDegree = courseName.replace(/^(Current|Expected)\s+/i, '')
+          
+          return {
+            degree: cleanDegree,
+            institution: course.institution,
+            year: String(course.year).replace(/^(Expected|Current)\s+/i, ''),
+            status: isCurrent ? 'current' : undefined
+          }
+        })
+      } else if (data.education) {
+        education = data.education
+      }
+      
+      // Build team member object
+      teamMembers.push({
+        id: id,
+        name: data.name || displayName,
+        role: data.user_groups?.[0] || data.role || '',
+        title: data.role || data.title || '',
+        image: avatarImage,
+        bio: data.bio || data.summary || '',
+        fullBio: content.trim() || data.bio || '',
+        email: data.email || '',
+        website: data.website || data.external_link || '',
+        linkedin: data.linkedin || '',
+        github: data.github || '',
+        scholar: data.scholar || data.google_scholar || '',
+        twitter: data.twitter || '',
+        interests: data.interests || [],
+        education: education,
+        organization: data.organization || {
+          name: data.organizations?.[0]?.name || 'University of Virginia',
+          department: data.organizations?.[0]?.url || ''
+        },
+        folder: folder
+      })
+      
+      console.log(`✓ Processed ${folder}`)
+    } catch (error) {
+      console.error(`Error processing ${folder}:`, error)
+    }
+  })
+  
+  // Sort by role priority (Faculty first, then PhD, then Undergrad, then Alumni)
+  const rolePriority = {
+    'Faculty': 1,
+    'PhD Students': 2,
+    'Undergraduate Students': 3,
+    'Alumni': 4
+  }
+  
+  teamMembers.sort((a, b) => {
+    const priorityA = rolePriority[a.role] || 99
+    const priorityB = rolePriority[b.role] || 99
+    if (priorityA !== priorityB) return priorityA - priorityB
+    return a.name.localeCompare(b.name)
+  })
+  
+  // Write to file
+  fs.writeFileSync(outputFile, JSON.stringify(teamMembers, null, 2))
+  console.log(`\n✅ Generated ${teamMembers.length} team members to ${outputFile}`)
+}
+
+generateTeam()

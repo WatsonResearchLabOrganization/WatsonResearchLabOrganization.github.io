@@ -34,6 +34,7 @@ dist-ssr
 # Generated files (auto-generated from markdown)
 src/data/publications-generated.json
 src/data/news-generated.json
+src/data/team-generated.json
 
 # OS files
 Thumbs.db
