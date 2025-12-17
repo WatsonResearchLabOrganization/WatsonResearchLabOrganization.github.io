@@ -16,12 +16,12 @@ export default function Team() {
   return (
     <div>
       {/* Hero */}
-      <section className="bg-gradient-to-r from-uva-blue to-uva-dark text-white py-20">
+      <section className="bg-gradient-to-r from-uva-blue to-uva-dark text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="mb-6"
+            className="text-4xl font-bold mb-3"
           >
             Our Team
           </motion.h1>
@@ -29,7 +29,7 @@ export default function Team() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
-            className="text-xl text-gray-100"
+            className="text-lg text-gray-100"
           >
             Meet the researchers advancing wearable health technology
           </motion.p>
