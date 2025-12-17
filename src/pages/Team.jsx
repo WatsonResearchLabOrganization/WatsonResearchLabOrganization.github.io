@@ -371,7 +371,7 @@ export default function Team() {
                     <h3 className="text-xl font-semibold text-gray-900 mb-3">Research Interests</h3>
                     <div className="flex flex-wrap gap-2">
                       {selectedMember.interests.map((interest, i) => (
-                        <span key={i} className="bg-uva-light text-uva-blue px-4 py-2 rounded-full text-sm font-medium">
+                        <span key={i} className="bg-gray-100 text-gray-800 px-4 py-2 rounded-full text-sm font-medium">
                           {interest}
                         </span>
                       ))}
