@@ -68,10 +68,10 @@ export default function Contact() {
                   <div>
                     <h4 className="font-semibold mb-1">Location</h4>
                     <p className="text-gray-600">
-                      Rice Hall, 85 Engineer's Way<br />
+                      Watson Research Lab<br />
                       Department of Electrical and Computer Engineering<br />
                       University of Virginia<br />
-                      Charlottesville, VA 22904
+                      Charlottesville, VA, USA
                     </p>
                   </div>
                 </div>
@@ -115,18 +115,21 @@ export default function Contact() {
                 </div>
               </div>
 
-              {/* Opportunities */}
-              <div className="mt-12 p-6 bg-blue-50 rounded-xl">
-                <h3 className="text-xl font-semibold mb-3 text-uva-blue">Prospective Students</h3>
-                <p className="text-gray-600 mb-4">
-                  Interested in joining our lab? We're always looking for motivated PhD students 
-                  passionate about wearable health technology.
-                </p>
-                <ul className="text-gray-600 space-y-2 text-sm">
-                  <li>✓ Apply to UVA ECE PhD program</li>
-                  <li>✓ Mention Dr. Watson in your application</li>
-                  <li>✓ Include your CV and research interests</li>
-                </ul>
+              {/* Map */}
+              <div className="mt-12">
+                <h3 className="text-xl font-semibold mb-4 text-uva-blue">Visit Us</h3>
+                <div className="rounded-xl overflow-hidden border border-gray-200 shadow-lg">
+                  <iframe 
+                    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=Mechanical+Engineering+Building,University+of+Virginia,Charlottesville+VA&zoom=17"
+                    width="100%"
+                    height="400"
+                    style={{ border: 0 }}
+                    allowFullScreen=""
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    title="Watson Research Lab Location"
+                  ></iframe>
+                </div>
               </div>
             </motion.div>
 
