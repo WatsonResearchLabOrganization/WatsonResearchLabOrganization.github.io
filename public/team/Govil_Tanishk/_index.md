@@ -18,13 +18,12 @@ organizations:
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include autonomous robots and high performance athletics.
+bio: My research interests include smart health and high performance athletics.
 
 interests:
   - Smart Health
-  - Autonomous Robotics
-  - High Performance Athletics
   - Machine Learning
+  - High Performance Athletics
   
 education:
   courses:
@@ -58,4 +57,4 @@ user_groups:
    - Undergraduate Students
 ---
 
-Tanishk Govil is an Undergraduate Student pursuing his Bachelors in Computer Science at the University of Virginia. His research interests include Smart Health, Autonomous Robotics, High Performance Athletics, and Machine Learning.
+Tanishk Govil is an Undergraduate Student pursuing his Bachelors in Computer Science at the University of Virginia. His research interests include Smart Health, High Performance Athletics, and Machine Learning.
