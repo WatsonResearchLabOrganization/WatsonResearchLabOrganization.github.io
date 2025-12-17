@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 import newsData from '../data/news-generated.json'
 import publicationsData from '../data/publications-generated.json'
+import researchData from '../data/research-generated.json'
 
 export default function Home() {
   const [currentVideoIndex, setCurrentVideoIndex] = useState(0)
@@ -13,13 +14,11 @@ export default function Home() {
     { src: '/videos/voltera.mp4', type: 'video/mp4' }
   ]
   
-  // Sponsors with their logos from research folders
-  const sponsors = [
-    { name: 'National Institutes of Health', logo: '/research/2025_nih_vipc/featured.png' },
-    { name: 'Coulter Foundation', logo: '/research/2024_coulter/featured.png' },
-    { name: 'UVA School of Data Science', logo: '/research/2025_sds/featured.png' },
-    { name: 'Research Innovation Award', logo: '/research/2024_ria/featured.png' }
-  ]
+  // Sponsors - dynamically pulled from research data
+  const sponsors = researchData.map(research => ({
+    name: research.agency,
+    logo: research.image
+  }))
   
   // Get recent news (top 3)
   const recentNews = newsData.slice(0, 3)
@@ -187,7 +186,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <h2 className="text-center text-uva-blue mb-12">Supported By</h2>
           
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center">
+          <div className="flex flex-wrap justify-center items-center gap-6 md:gap-8">
             {sponsors.map((sponsor, index) => (
               <motion.div
                 key={index}
@@ -200,7 +199,7 @@ export default function Home() {
                 <img 
                   src={sponsor.logo} 
                   alt={sponsor.name}
-                  className="w-full h-32 object-contain grayscale hover:grayscale-0 transition-all duration-300"
+                  className="h-16 md:h-20 w-auto object-contain transition-all duration-300 hover:scale-110 hover:brightness-110"
                   title={sponsor.name}
                 />
               </motion.div>
@@ -260,7 +259,10 @@ export default function Home() {
                   <div className="text-sm text-gray-500 mb-2">{item.date}</div>
                   <h3 className="text-xl font-semibold mb-3 text-gray-900">{item.title}</h3>
                   {item.summary && (
-                    <p className="text-gray-600 mb-4 line-clamp-3">{item.summary}</p>
+                    <div 
+                      className="text-gray-600 mb-4 line-clamp-3"
+                      dangerouslySetInnerHTML={{ __html: item.summary.replace(/\[Link to Article\.\]\((.*?)\)/, '<a href="$1" target="_blank" rel="noopener noreferrer" class="text-uva-blue hover:text-uva-dark">Link to Article.</a>') }}
+                    />
                   )}
                   {item.link && (
                     <a 
