@@ -1,18 +1,14 @@
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
-import grantsData from '../data/grants.json'
 
 export default function Home() {
-  // Extract unique agencies from grants
-  const sponsors = [...new Set(grantsData.map(grant => grant.agency))]
-    .map(agency => {
-      // Create abbreviations for display
-      const words = agency.split(' ')
-      const abbr = words.length > 2 
-        ? words.map(w => w[0]).join('')
-        : agency
-      return { name: agency, abbr }
-    })
+  // Major sponsors/funders
+  const sponsors = [
+    { name: 'National Institutes of Health', abbr: 'NIH' },
+    { name: 'National Science Foundation', abbr: 'NSF' },
+    { name: 'Coulter Foundation', abbr: 'Coulter' },
+    { name: 'UVA School of Data Science', abbr: 'SDS' }
+  ]
   return (
     <div>
       {/* Hero Section with Video Background */}
