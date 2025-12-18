@@ -32,9 +32,9 @@ const generateResearch = () => {
       const mdContent = fs.readFileSync(indexPath, 'utf-8')
       const { data, content } = matter(mdContent)
       
-      // Parse dates
+      // Parse dates - 'date' field represents end date
       const startDate = data.start_date || data.startDate || ''
-      const endDate = data.end_date || data.endDate || ''
+      const endDate = data.end_date || data.endDate || data.date || ''
       
       // Check for featured image
       let featuredImage = ''
@@ -52,6 +52,7 @@ const generateResearch = () => {
       grants.push({
         id: folder,
         title: data.title || '',
+        summary: data.summary || '',
         agency: data.agencies?.[0] || data.agency || '',
         agencies: data.agencies || (data.agency ? [data.agency] : []),
         amount: data.amount || '',
@@ -60,6 +61,7 @@ const generateResearch = () => {
         duration: `${startDate}${endDate ? ' - ' + endDate : ''}`,
         description: content.trim() || data.description || '',
         tags: data.tags || [],
+        authors: data.authors || [],
         image: featuredImage,
         folder: folder
       })
