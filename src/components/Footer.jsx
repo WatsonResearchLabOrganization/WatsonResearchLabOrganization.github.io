@@ -14,7 +14,7 @@ export default function Footer() {
             <p className="text-gray-400 text-sm">
               Department of Electrical and Computer Engineering<br />
               University of Virginia<br />
-              Charlottesville, VA 22904
+              Charlottesville, VA, USA
             </p>
           </div>
 
