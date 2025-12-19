@@ -6,8 +6,8 @@ authors:
 - admin
 - Henry Bearden
 - Sharon Lu
-date: '2025-12-15' # fix date
-publishDate: '2025-12-16T04:01:28.497545Z' # fix publish date
+date: '2026-01-01'
+publishDate: '2025-12-19T12:02:59Z'
 publication_types:
 - paper-conference
 publication: '*International Journal of Industrial Ergonomics*'
