@@ -184,19 +184,6 @@ export default function Team() {
         )
       })}
 
-      {/* Join CTA */}
-      <section className="section-padding bg-uva-blue text-white">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="mb-6">Join Our Team</h2>
-          <p className="text-xl mb-8 text-gray-100">
-            We're looking for motivated PhD students interested in wearable health technology
-          </p>
-          <a href="/contact" className="btn-primary bg-white text-uva-blue hover:bg-gray-100">
-            Learn About Opportunities
-          </a>
-        </div>
-      </section>
-
       {/* Team Member Modal */}
       <AnimatePresence>
         {selectedMember && (
