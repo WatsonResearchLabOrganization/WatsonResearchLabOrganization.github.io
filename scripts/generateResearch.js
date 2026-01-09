@@ -12,7 +12,7 @@ const outputFile = path.join(__dirname, '../src/data/research-generated.json')
 const generateResearch = () => {
   const grants = []
   
-  // Get all grant folders
+  // get all folders
   const folders = fs.readdirSync(grantsDir).filter(file => {
     const filePath = path.join(grantsDir, file)
     return fs.statSync(filePath).isDirectory()
@@ -22,7 +22,7 @@ const generateResearch = () => {
     try {
       const folderPath = path.join(grantsDir, folder)
       
-      // Read index.md
+      // retrieve index.md in each folder 
       const indexPath = path.join(folderPath, 'index.md')
       if (!fs.existsSync(indexPath)) {
         console.warn(`No index.md found for ${folder}`)
@@ -32,11 +32,11 @@ const generateResearch = () => {
       const mdContent = fs.readFileSync(indexPath, 'utf-8')
       const { data, content } = matter(mdContent)
       
-      // Parse dates - 'date' field represents end date
+      // parse start and end dates
       const startDate = data.start_date || data.startDate || ''
       const endDate = data.end_date || data.endDate || data.date || ''
       
-      // Check for featured image
+      // see if there is an image
       let featuredImage = ''
       const files = fs.readdirSync(folderPath)
       const featuredFile = files.find(file => {
@@ -47,8 +47,8 @@ const generateResearch = () => {
       if (featuredFile) {
         featuredImage = `/research/${folder}/${featuredFile}`
       }
-      
-      // Build grant object
+
+      // build grant object
       grants.push({
         id: folder,
         title: data.title || '',
@@ -72,14 +72,20 @@ const generateResearch = () => {
     }
   })
   
-  // Sort by start date (newest first)
+  // sort by start date descending
   grants.sort((a, b) => {
     const dateA = new Date(a.startDate || '1900-01-01')
     const dateB = new Date(b.startDate || '1900-01-01')
     return dateB - dateA
   })
   
-  // Write to file
+  // get output directory
+  const outputDir = path.dirname(outputFile)
+  if (!fs.existsSync(outputDir)) {
+    fs.mkdirSync(outputDir, { recursive: true })
+  }
+
+  // write to file
   fs.writeFileSync(outputFile, JSON.stringify(grants, null, 2))
   console.log(`\n✅ Generated ${grants.length} grants to ${outputFile}`)
 }

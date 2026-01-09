@@ -12,7 +12,7 @@ const outputFile = path.join(__dirname, '../src/data/team-generated.json')
 const generateTeam = () => {
   const teamMembers = []
   
-  // Get all team member folders
+  // get all folders
   const folders = fs.readdirSync(teamDir).filter(file => {
     const filePath = path.join(teamDir, file)
     return fs.statSync(filePath).isDirectory()
@@ -22,7 +22,7 @@ const generateTeam = () => {
     try {
       const folderPath = path.join(teamDir, folder)
       
-      // Read _index.md
+      // retrieve _index.md in each folder
       const indexPath = path.join(folderPath, '_index.md')
       if (!fs.existsSync(indexPath)) {
         console.warn(`No _index.md found for ${folder}`)
@@ -32,16 +32,16 @@ const generateTeam = () => {
       const mdContent = fs.readFileSync(indexPath, 'utf-8')
       const { data, content } = matter(mdContent)
       
-      // Generate id from folder name
+      // generate id from folder name
       const id = folder.toLowerCase().replace(/_/g, '-')
       
-      // Parse name from folder (Last_First format)
+      // generate display name from folder name if not provided
       const nameParts = folder.split('_')
       const displayName = nameParts.length > 1 
         ? `${nameParts[1]} ${nameParts[0]}` 
         : folder.replace(/_/g, ' ')
       
-      // Check for avatar image
+      // see if there is an avatar image
       let avatarImage = ''
       const files = fs.readdirSync(folderPath)
       const avatarFile = files.find(file => {
@@ -53,7 +53,7 @@ const generateTeam = () => {
         avatarImage = `/team/${folder}/${avatarFile}`
       }
       
-      // Parse education from Hugo format to array
+      // parse education
       let education = []
       if (data.education?.courses) {
         education = data.education.courses.map(course => {
@@ -62,7 +62,7 @@ const generateTeam = () => {
                            courseName.toLowerCase().includes('expected') ||
                            String(course.year).toLowerCase().includes('expected')
           
-          // Clean up degree name by removing "Current" or "Expected"
+          // clean degree name
           const cleanDegree = courseName.replace(/^(Current|Expected)\s+/i, '')
           
           return {
@@ -76,7 +76,7 @@ const generateTeam = () => {
         education = data.education
       }
       
-      // Parse social links from Hugo format
+      // parse social links
       let email = data.email || ''
       let website = data.website || data.external_link || ''
       let linkedin = data.linkedin || ''
@@ -91,7 +91,7 @@ const generateTeam = () => {
           const link = social.link
           const icon = social.icon?.toLowerCase() || ''
           
-          // Extract social links based on icon or URL pattern
+          // determine type based on icon or link pattern
           if (icon === 'envelope' || link.startsWith('mailto:')) {
             email = link.replace('mailto:', '')
           } else if (icon === 'linkedin' || link.includes('linkedin.com')) {
@@ -108,7 +108,7 @@ const generateTeam = () => {
         })
       }
       
-      // Build team member object
+      // build team member object
       teamMembers.push({
         id: id,
         name: data.name || displayName,
@@ -138,7 +138,7 @@ const generateTeam = () => {
     }
   })
   
-  // Sort by role priority (Faculty first, then PhD, then Undergrad, then Alumni)
+  // sort by role and name
   const rolePriority = {
     'Faculty': 1,
     'PhD Students': 2,
@@ -153,7 +153,13 @@ const generateTeam = () => {
     return a.name.localeCompare(b.name)
   })
   
-  // Write to file
+  // get output directory
+  const outputDir = path.dirname(outputFile)
+  if (!fs.existsSync(outputDir)) {
+    fs.mkdirSync(outputDir, { recursive: true })
+  }
+  
+  // write to file
   fs.writeFileSync(outputFile, JSON.stringify(teamMembers, null, 2))
   console.log(`\n✅ Generated ${teamMembers.length} team members to ${outputFile}`)
 }

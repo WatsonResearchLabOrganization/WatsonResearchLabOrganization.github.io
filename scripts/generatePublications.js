@@ -9,7 +9,7 @@ const __dirname = path.dirname(__filename)
 const publicationsDir = path.join(__dirname, '../public/publications')
 const outputFile = path.join(__dirname, '../src/data/publications-generated.json')
 
-// Parse author names to display format
+// change admin to amanda's name
 const parseAuthorName = (author) => {
   if (author === 'admin') return 'Amanda Watson'
   return author.replace(/_/g, ' ')
@@ -18,7 +18,7 @@ const parseAuthorName = (author) => {
 const generatePublications = () => {
   const publications = []
   
-  // Get all publication folders
+  // get all folders
   const folders = fs.readdirSync(publicationsDir).filter(file => {
     return fs.statSync(path.join(publicationsDir, file)).isDirectory()
   })
@@ -27,7 +27,7 @@ const generatePublications = () => {
     try {
       const folderPath = path.join(publicationsDir, folder)
       
-      // Read index.md
+      // retrieve index.md in each folder
       const indexPath = path.join(folderPath, 'index.md')
       if (!fs.existsSync(indexPath)) {
         console.warn(`No index.md found for ${folder}`)
@@ -37,17 +37,17 @@ const generatePublications = () => {
       const mdContent = fs.readFileSync(indexPath, 'utf-8')
       const { data, content } = matter(mdContent)
       
-      // Read citation if exists
+      // read citation file if exists
       let citation = null
       const citePath = path.join(folderPath, 'cite.bib')
       if (fs.existsSync(citePath)) {
         citation = fs.readFileSync(citePath, 'utf-8')
       }
       
-      // Extract year from date
+      // get year from date
       const year = data.date ? new Date(data.date).getFullYear() : new Date().getFullYear()
       
-      // Check for featured image
+      // see if there is an image
       const featuredImagePath = path.join(folderPath, 'featured.jpg')
       const featuredPngPath = path.join(folderPath, 'featured.png')
       let featuredImage = null
@@ -57,7 +57,7 @@ const generatePublications = () => {
         featuredImage = `/publications/${folder}/featured.png`
       }
       
-      // Build publication object
+      // build publication object
       publications.push({
         id: folder,
         title: data.title,
@@ -84,14 +84,20 @@ const generatePublications = () => {
     }
   })
   
-  // Sort by date (newest first)
+  // sort by date descending
   publications.sort((a, b) => {
     const dateA = a.date ? new Date(a.date) : new Date(0)
     const dateB = b.date ? new Date(b.date) : new Date(0)
     return dateB - dateA
   })
   
-  // Write to JSON file
+  // get output directory
+  const outputDir = path.dirname(outputFile)
+  if (!fs.existsSync(outputDir)) {
+    fs.mkdirSync(outputDir, { recursive: true })
+  }
+
+  // write to file
   fs.writeFileSync(outputFile, JSON.stringify(publications, null, 2))
   console.log(`\n✓ Generated ${publications.length} publications to ${outputFile}`)
 }

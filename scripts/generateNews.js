@@ -12,7 +12,7 @@ const outputFile = path.join(__dirname, '../src/data/news-generated.json')
 const generateNews = () => {
   const newsItems = []
   
-  // Get all news folders
+  // get all folders
   const folders = fs.readdirSync(newsDir).filter(file => {
     const filePath = path.join(newsDir, file)
     return fs.statSync(filePath).isDirectory()
@@ -22,7 +22,7 @@ const generateNews = () => {
     try {
       const folderPath = path.join(newsDir, folder)
       
-      // Read index.md
+      // retrieve index.md in each folder
       const indexPath = path.join(folderPath, 'index.md')
       if (!fs.existsSync(indexPath)) {
         console.warn(`No index.md found for ${folder}`)
@@ -32,10 +32,10 @@ const generateNews = () => {
       const mdContent = fs.readFileSync(indexPath, 'utf-8')
       const { data, content } = matter(mdContent)
       
-      // Extract year from date
+      // get year from date
       const year = data.date ? new Date(data.date).getFullYear() : new Date().getFullYear()
       
-      // Check for featured image by reading directory files
+      // see if there is an image
       let featuredImage = ''
       const files = fs.readdirSync(folderPath)
       const featuredFile = files.find(file => {
@@ -47,7 +47,7 @@ const generateNews = () => {
         featuredImage = `/news/${folder}/${featuredFile}`
       }
       
-      // Build news object
+      // build news object
       newsItems.push({
         id: folder,
         title: data.title || '',
@@ -68,14 +68,20 @@ const generateNews = () => {
     }
   })
   
-  // Sort by date (newest first)
+  // sort by date descending
   newsItems.sort((a, b) => {
     const dateA = new Date(a.date || 0)
     const dateB = new Date(b.date || 0)
     return dateB - dateA
   })
   
-  // Write to file
+  // get output directory
+  const outputDir = path.dirname(outputFile)
+  if (!fs.existsSync(outputDir)) {
+    fs.mkdirSync(outputDir, { recursive: true })
+  }
+  
+  // write to file
   fs.writeFileSync(outputFile, JSON.stringify(newsItems, null, 2))
   console.log(`\n✅ Generated ${newsItems.length} news items to ${outputFile}`)
 }
