@@ -11,7 +11,8 @@
     "generate:news": "node scripts/generateNews.js",
     "generate:team": "node scripts/generateTeam.js",
     "generate:research": "node scripts/generateResearch.js",
-    "generate:all": "npm run generate:pubs && npm run generate:news && npm run generate:team && npm run generate:research"
+    "generate:all": "npm run generate:pubs && npm run generate:news && npm run generate:team && npm run generate:research",
+    "deploy": "npm run build && cd dist && git init && git add -A && git commit -m 'Deploy' && git push -f https://github.com/WatsonResearchLabOrganization/WatsonResearchLabOrganization.github.io.git main:main"
   },
   "dependencies": {
     "framer-motion": "^11.0.5",
