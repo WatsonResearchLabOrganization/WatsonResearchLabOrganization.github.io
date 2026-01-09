@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - main
-      - newdata
   workflow_dispatch:
 
 permissions:
