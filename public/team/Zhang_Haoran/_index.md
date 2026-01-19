@@ -12,12 +12,12 @@ superuser: false
 # Role/position
 role: PhD Student
 
+external_link: "https://hollen0318.github.io"
+
 # Organizations/Affiliations
 organizations:
   - name: University of Virginia
     url: ''
-    
-redirect: "https://hollen0318.github.io"
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include wearable technology, medical devices, high performance athletics, cyber-physical systems, and machine learning. 
