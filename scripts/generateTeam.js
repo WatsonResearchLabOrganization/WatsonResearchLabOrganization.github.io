@@ -142,8 +142,10 @@ const generateTeam = () => {
   const rolePriority = {
     'Faculty': 1,
     'PhD Students': 2,
-    'Undergraduate Students': 3,
-    'Alumni': 4
+    'MS Students': 3,
+    'Masters Students': 3,
+    'Undergraduate Students': 4,
+    'Alumni': 5
   }
   
   teamMembers.sort((a, b) => {

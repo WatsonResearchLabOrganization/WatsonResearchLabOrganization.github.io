@@ -10,7 +10,7 @@ last_name: Chen
 superuser: false
 
 # Role/position
-role: PhD Student
+role: Masters Student
 
 # Optional external URL for author (replaces author detail page).
 # external_link: "https://tarek-hamid.github.io"
@@ -67,8 +67,8 @@ highlight_name: Ture
 #   Set this to `[]` or comment out if you are not using People widget.
 # Uncomment the appropriate user groups
 user_groups:
-  - PhD Students
-  #- Masters Students
+  #- PhD Students
+  - Masters Students
   #- Undergraduate Students
 ---
 
