@@ -11,8 +11,15 @@ export default function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    // Handle form submission
-    alert('Thank you for your message! We will get back to you soon.')
+    
+    // Construct mailto link with form data
+    const emailBody = `Name: ${formData.name}%0D%0AEmail: ${formData.email}%0D%0A%0D%0AMessage:%0D%0A${formData.message}`
+    const mailtoLink = `mailto:aawatson@virginia.edu?subject=${encodeURIComponent(formData.subject)}&body=${emailBody}`
+    
+    // Open user's email client
+    window.location.href = mailtoLink
+    
+    // Reset form
     setFormData({ name: '', email: '', subject: '', message: '' })
   }
 
