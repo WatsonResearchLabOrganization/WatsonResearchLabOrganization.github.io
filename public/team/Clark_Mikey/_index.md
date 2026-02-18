@@ -49,7 +49,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:sjy7da@virginia.edu'
+    link: 'mailto:auu3yd@virginia.edu'
   # - icon: twitter
   #   icon_pack: fab
   #   link: https://twitter.com/DrWatson_22
