@@ -54,7 +54,7 @@ highlight_name: true
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-   - Undergraduate Students
+   - Alumni
 ---
 
 Tanishk Govil is an Undergraduate Student pursuing his Bachelors in Computer Science at the University of Virginia. His research interests include Smart Health, High Performance Athletics, and Machine Learning.
