@@ -7,6 +7,15 @@ export default function News() {
   const [searchText, setSearchText] = useState('')
   const [isSticky, setIsSticky] = useState(false)
   const sentinelRef = useRef(null)
+
+  const formatNewsDate = (dateString) => {
+    const [year, month, day] = dateString.split('-').map(Number)
+    return new Date(year, month - 1, day).toLocaleDateString('en-US', {
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric'
+    })
+  }
   
   const years = ['all', ...new Set(newsData.map(n => n.year))].sort((a, b) => b - a)
   
@@ -209,11 +218,7 @@ export default function News() {
                 
                 <div className="flex items-start justify-between mb-3">
                   <span className="text-sm font-semibold text-uva-blue">
-                    {new Date(item.date).toLocaleDateString('en-US', { 
-                      year: 'numeric', 
-                      month: 'long', 
-                      day: 'numeric' 
-                    })}
+                    {formatNewsDate(item.date)}
                   </span>
                   {item.category && (
                     <span className="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded">
