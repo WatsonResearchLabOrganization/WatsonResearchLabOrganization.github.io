@@ -5,6 +5,9 @@ date: 2026-06-30
 tags: ["Lactate", "Wearable", "Sepsis", "Coulter", "UVA Health"]
 authors: [Amanda Watson, Bob Thiele, Amir Malek]
 featured: true
+related_publications:
+  - id: flores-2026-multibiomarker
+    relationship: "Project publication"
 
 links:
   - icon: file-alt
