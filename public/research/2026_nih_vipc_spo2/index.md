@@ -5,6 +5,13 @@ tags: ["SpO₂", "Wearable Biosensors", "Optical Sensing", "Oxygen Saturation", 
 featured: true
 authors: [Amanda Watson, Tarek Hamid, Patricia Flores]
 agencies: ["NIH REACH", "Virginia Innovation Partnership Corporation (VIPC)"]
+related_publications:
+  - id: flores-2026-multibiomarker
+    relationship: "Related sensing platform"
+  - id: hamid-2025-skin-tone-imwut
+    relationship: "Related optical sensing work"
+  - id: watson-2023-lumos
+    relationship: "Foundational sensing platform"
 image:
   preview_only: false
   caption: "SpO₂ Lumos wearable optical sensing research."
