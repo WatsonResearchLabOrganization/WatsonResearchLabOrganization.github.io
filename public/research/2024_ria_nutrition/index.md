@@ -24,3 +24,11 @@ projects:
   - research/2024_ria_nutrition
 ---
 This study explores the ability of Lumos to detect nutritional state, hydration, and macronutrient signatures in human skin reflectance, with potential applications in personalized nutrition and wellness.
+
+### Research Focus
+- Characterize optical signatures associated with nutrition and hydration
+- Evaluate wearable spectroscopy in controlled human studies
+- Advance noninvasive tools for personalized nutrition research
+
+### Funding
+- **University of Virginia Research Innovation Award (RIA)**

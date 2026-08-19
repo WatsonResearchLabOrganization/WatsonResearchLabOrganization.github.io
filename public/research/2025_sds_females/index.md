@@ -7,6 +7,7 @@ tags: ["Women's Health", "Multimodal Sensing", "Wearable Technology", "Digital H
 featured: true
 authors: [Natalie Kupperman, Amanda Watson, Yuxuan Liu]
 agencies: ["UVA School of Data Science"]
+publication_note: "Project publications are forthcoming."
 image:
   preview_only: false
   caption: "Multimodal physiological monitoring for active college-age women."
@@ -14,13 +15,13 @@ image:
 projects:
   - research/2025_sds_females
 ---
-This UVA women's varsity athlete pilot evaluates the feasibility of combining multimodal wearable sensor data, digital measurements, and blood sampling to monitor physiological status in active college-age women.
+This pilot evaluates the feasibility of combining multimodal wearable sensor data, digital measurements, and blood sampling to monitor physiological status in active college-age women.
 
 ### Research Focus
 - Integrate complementary physiological sensor and digital data streams
 - Assess the feasibility of multimodal monitoring in an active population
 - Establish a foundation for future longitudinal women's-health research
-- Conduct the pilot in partnership with UVA Athletics
+- Conduct the pilot with an active college-age population
 
 ### Funding
 - **UVA School of Data Science Pilot Project**
