@@ -8,6 +8,8 @@ authors: [Amanda Watson, Anush Lingamoorthy]
 related_publications:
   - id: hamid-2025-pervasive
     relationship: "Project publication"
+  - id: flores-2026-multibiomarker
+    relationship: "Project publication"
 image:
   preview_only: false
   caption: "Lumos nutrition sensor under lab testing"
