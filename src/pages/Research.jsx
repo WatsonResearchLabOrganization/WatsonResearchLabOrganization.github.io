@@ -33,10 +33,6 @@ export default function Research() {
         }
         
         isCurrent = endDate >= now
-      } else if (grant.startDate) {
-        // No end date, but has start date - check if start is in the future
-        const startDate = new Date(grant.startDate)
-        isCurrent = startDate >= now
       }
       
       if (isCurrent) {
@@ -331,6 +327,40 @@ export default function Research() {
                     >
                       {selectedGrant.description}
                     </ReactMarkdown>
+                  </div>
+                )}
+
+                {/* Related Publications */}
+                {selectedGrant.relatedPublications && selectedGrant.relatedPublications.length > 0 && (
+                  <div className="mt-6 pt-6 border-t">
+                    <h4 className="font-semibold text-gray-900 mb-3">Related Publications</h4>
+                    <div className="space-y-3">
+                      {selectedGrant.relatedPublications.map((publication) => (
+                        <div key={publication.id} className="rounded-lg border border-gray-200 p-4">
+                          {publication.relationship && (
+                            <p className="text-xs font-semibold uppercase tracking-wide text-uva-blue mb-1">
+                              {publication.relationship}
+                            </p>
+                          )}
+                          <p className="font-medium text-gray-900">{publication.title}</p>
+                          {(publication.venue || publication.year) && (
+                            <p className="text-sm text-gray-600 mt-1">
+                              {[publication.venue, publication.year].filter(Boolean).join(' · ')}
+                            </p>
+                          )}
+                          {publication.url && (
+                            <a
+                              href={publication.url}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="inline-block mt-3 text-sm font-medium text-uva-blue hover:text-uva-dark"
+                            >
+                              View paper →
+                            </a>
+                          )}
+                        </div>
+                      ))}
+                    </div>
                   </div>
                 )}
                 

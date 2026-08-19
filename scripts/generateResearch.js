@@ -7,7 +7,34 @@ const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
 const grantsDir = path.join(__dirname, '../public/research')
+const publicationsDir = path.join(__dirname, '../public/publications')
 const outputFile = path.join(__dirname, '../src/data/research-generated.json')
+
+const resolveRelatedPublication = (entry) => {
+  const id = typeof entry === 'string' ? entry : entry?.id
+  if (!id) return null
+
+  const indexPath = path.join(publicationsDir, id, 'index.md')
+  if (!fs.existsSync(indexPath)) {
+    console.warn(`Related publication not found: ${id}`)
+    return null
+  }
+
+  const { data } = matter(fs.readFileSync(indexPath, 'utf-8'))
+  const publicationFolder = path.join(publicationsDir, id)
+  const localPdf = fs.existsSync(path.join(publicationFolder, `${id}.pdf`))
+    ? `/publications/${id}/${id}.pdf`
+    : ''
+
+  return {
+    id,
+    title: data.title || id,
+    venue: (data.publication || '').replace(/\*/g, ''),
+    year: data.date ? new Date(data.date).getFullYear() : '',
+    url: data.url_pdf || localPdf,
+    relationship: typeof entry === 'object' ? entry.relationship || '' : ''
+  }
+}
 
 const generateResearch = () => {
   const grants = []
@@ -49,6 +76,10 @@ const generateResearch = () => {
       }
 
       // build grant object
+      const relatedPublications = (data.related_publications || data.relatedPublications || [])
+        .map(resolveRelatedPublication)
+        .filter(Boolean)
+
       grants.push({
         id: folder,
         title: data.title || '',
@@ -62,6 +93,7 @@ const generateResearch = () => {
         description: content.trim() || data.description || '',
         tags: data.tags || [],
         authors: data.authors || [],
+        relatedPublications: relatedPublications,
         image: featuredImage,
         folder: folder
       })

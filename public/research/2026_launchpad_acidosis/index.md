@@ -1,21 +1,27 @@
 ---
-title: "Microvascular Phantom Guided Development of a Wearable Sensor for Detecting Early Acidosis"
-summary: "Launchpad for Diabetes Ignite funded research to ____." # fix
-date: 2027-01-31
-tags: [] # add tags
+title: "Optimizing Wearable Sensors for Lactate Monitoring Under Acidosis in Diabetes"
+summary: "Launchpad for Diabetes Ignite-funded research optimizing wearable optical sensing for lactate monitoring under acidosis in people with diabetes."
+start_date: 2026-01-13
+tags: ["Lactate", "Acidosis", "Diabetes", "Wearable Biosensors", "Optical Spectroscopy"]
 featured: true
-authors: [Amanda Watson] # add more
+authors: [Nathan Swami, Amanda Watson, Robert Thiele]
+agencies: ["Launchpad for Diabetes Ignite"]
+related_publications:
+  - id: flores-2026-multibiomarker
+    relationship: "Related sensing platform"
 image:
   preview_only: false
-  caption: "___"
-
-links:
-  - icon: syringe
-    icon_pack: fas
-    name: Protocol Summary
-    url: https://example.com/launchpad-protocol
+  caption: "Wearable optical sensing for lactate monitoring under acidosis."
 
 projects:
   - research/2026_launchpad_acidosis
 ---
-This study explores ___.
+This project optimizes a wearable optical sensing platform for lactate monitoring under acidosis in people with diabetes.
+
+### Research Focus
+- Evaluate multispectral wearable sensing under acidosis-related physiological changes
+- Improve continuous, noninvasive lactate trend monitoring
+- Advance wearable sensing approaches for diabetes-related acidosis
+
+### Funding
+- **Launchpad for Diabetes Ignite**

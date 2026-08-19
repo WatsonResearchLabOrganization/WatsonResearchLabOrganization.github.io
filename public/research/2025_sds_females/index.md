@@ -1,21 +1,26 @@
 ---
 title: "Feasibility of Multi-Modal Sensor and Digital Data Integration to Monitor Physiological Status in Active College-Age Females"
-summary: "UVA School of Data Science funded research to ____." # fix
-date: 2026-05-30
-tags: [] # add tags
+summary: "UVA School of Data Science-funded research evaluating the integration of multimodal sensor and digital data to monitor physiological status in active college-age women."
+start_date: 2025-11-11
+date: 2026-12-31
+tags: ["Women's Health", "Multimodal Sensing", "Wearable Technology", "Digital Health", "Data Science"]
 featured: true
-authors: [Amanda Watson] # add more
+authors: [Natalie Kupperman, Amanda Watson, Yuxuan Liu]
+agencies: ["UVA School of Data Science"]
 image:
   preview_only: false
-  caption: "___"
-
-links:
-  - icon: venus
-    icon_pack: fas
-    name: Protocol Summary
-    url: https://example.com/sds-protocol
+  caption: "Multimodal physiological monitoring for active college-age women."
 
 projects:
   - research/2025_sds_females
 ---
-This study explores ___.
+This UVA women's varsity athlete pilot evaluates the feasibility of combining multimodal wearable sensor data, digital measurements, and blood sampling to monitor physiological status in active college-age women.
+
+### Research Focus
+- Integrate complementary physiological sensor and digital data streams
+- Assess the feasibility of multimodal monitoring in an active population
+- Establish a foundation for future longitudinal women's-health research
+- Conduct the pilot in partnership with UVA Athletics
+
+### Funding
+- **UVA School of Data Science Pilot Project**
