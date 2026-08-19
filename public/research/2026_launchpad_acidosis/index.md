@@ -9,6 +9,8 @@ agencies: ["Launchpad for Diabetes Ignite"]
 related_publications:
   - id: flores-2026-multibiomarker
     relationship: "Related sensing platform"
+  - id: watson-2023-lumos
+    relationship: "Foundational sensing platform"
 image:
   preview_only: false
   caption: "Wearable optical sensing for lactate monitoring under acidosis."
