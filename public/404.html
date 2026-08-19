@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Watson Research Lab | UVA</title>
+  </head>
+  <body>
+    <script>
+      // GitHub Pages has no native single-page-app route fallback. Preserve the
+      // requested route, load the home page, and restore the route before React starts.
+      sessionStorage.setItem(
+        'spa-redirect-path',
+        window.location.pathname + window.location.search + window.location.hash,
+      )
+      window.location.replace('/')
+    </script>
+  </body>
+</html>
