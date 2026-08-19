@@ -17,7 +17,7 @@ date: '2026-10-10'
 publishDate: '2026-10-10T00:00:00Z'
 publication_types:
   - paper-conference
-publication: '*IEEE-EMBS International Conference on Body Sensor Networks (BSN 2026)*'
+publication: 'IEEE-EMBS International Conference on Body Sensor Networks (BSN 2026)'
 tags:
   - Lumos
   - Multi-Biomarker Monitoring
