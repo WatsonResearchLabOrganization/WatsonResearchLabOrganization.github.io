@@ -8,6 +8,8 @@ const __dirname = path.dirname(__filename)
 
 const publicationsDir = path.join(__dirname, '../public/publications')
 const outputFile = path.join(__dirname, '../src/data/publications-generated.json')
+const abstractsFile = path.join(__dirname, '../src/data/publication-abstracts.json')
+const publicationAbstracts = JSON.parse(fs.readFileSync(abstractsFile, 'utf-8'))
 
 // change admin to amanda's name
 const parseAuthorName = (author) => {
@@ -69,7 +71,7 @@ const generatePublications = () => {
         year: year,
         date: data.date,
         publicationTypes: data.publication_types || [],
-        abstract: content.trim() || '',
+        abstract: content.trim() || publicationAbstracts[folder] || '',
         pdf: data.url_pdf || `/publications/${folder}/${folder}.pdf`,
         poster: data.url_poster || '',
         slides: data.url_slides || '',
