@@ -8,6 +8,10 @@ featured: true
 related_publications:
   - id: flores-2026-multibiomarker
     relationship: "Project publication"
+  - id: hamid-2025-skin-tone-imwut
+    relationship: "Related skin-aware optical sensing work"
+  - id: zhang-2025-openspectro
+    relationship: "Related wavelength optimization platform"
   - id: watson-2023-lumos
     relationship: "Foundational sensing platform"
 
