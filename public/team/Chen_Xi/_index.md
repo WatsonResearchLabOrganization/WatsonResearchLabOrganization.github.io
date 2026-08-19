@@ -10,7 +10,7 @@ last_name: Chen
 superuser: false
 
 # Role/position
-role: Masters Student
+role: Masters Alumni
 
 # Optional external URL for author (replaces author detail page).
 # external_link: "https://tarek-hamid.github.io"
@@ -32,9 +32,8 @@ interests:
   
 education:
   courses:
-    - course: Current PhD in Electrical Engineering
+    - course: Masters in Electrical Engineering
       institution: UVA
-      year: 2029
     - course: Bachelors in Elctraical and Electronic Engineering
       institution: UCL 
       year: 2023
@@ -68,8 +67,9 @@ highlight_name: Ture
 # Uncomment the appropriate user groups
 user_groups:
   #- PhD Students
-  - Masters Students
+  #- Masters Students
   #- Undergraduate Students
+  - Alumni
 ---
 
-Chen Xi is a PhD student of Electrical Engineering at the University of Virginia. His research interests include Wearable Sensor Technology, Internet of Medical Things, and AI Hardware. He currently holds a Beng in Elctraical and Electronic Engineering from University College London.
+Chen Xi is an alumnus of the Watson Research Lab. His research interests include Wearable Sensor Technology, Internet of Medical Things, and AI Hardware. He holds a BEng in Electrical and Electronic Engineering from University College London and a master's degree in Electrical Engineering from the University of Virginia.
