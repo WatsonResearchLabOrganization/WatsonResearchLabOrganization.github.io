@@ -94,6 +94,7 @@ const generateResearch = () => {
         tags: data.tags || [],
         authors: data.authors || [],
         relatedPublications: relatedPublications,
+        publicationNote: data.publication_note || data.publicationNote || '',
         image: featuredImage,
         folder: folder
       })
