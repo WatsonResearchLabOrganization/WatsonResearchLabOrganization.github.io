@@ -62,7 +62,10 @@ const generatePublications = () => {
         id: folder,
         title: data.title,
         authors: data.authors ? data.authors.map(parseAuthorName).join(', ') : '',
-        venue: data.publication || '',
+        // Publication front matter historically wrapped venue names in Markdown
+        // asterisks. The UI already renders venues in italics, so strip those
+        // markers before generating display data.
+        venue: (data.publication || '').replace(/\*/g, ''),
         year: year,
         date: data.date,
         publicationTypes: data.publication_types || [],
