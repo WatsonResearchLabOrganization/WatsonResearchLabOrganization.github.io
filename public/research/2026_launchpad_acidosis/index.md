@@ -13,7 +13,7 @@ related_publications:
     relationship: "Foundational sensing platform"
 image:
   preview_only: false
-  caption: "Wearable optical sensing for lactate monitoring under acidosis."
+  caption: "Manning Family Foundation, whose gift supports LaunchPad for Diabetes Ignite."
 
 projects:
   - research/2026_launchpad_acidosis
