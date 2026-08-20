@@ -16,7 +16,7 @@ related_publications:
     relationship: "Foundational sensing platform"
 image:
   preview_only: false
-  caption: "Multi-wavelength pulse oximetry hardware for skin-tone-inclusive oxygen-saturation monitoring."
+  caption: "Mid-South REACH, the project’s primary funder."
 
 projects:
   - research/2026_nih_vipc_spo2
