@@ -12,8 +12,6 @@ related_publications:
     relationship: "Related skin-aware optical sensing work"
   - id: zhang-2025-openspectro
     relationship: "Related wavelength optimization platform"
-  - id: watson-2023-lumos
-    relationship: "Foundational sensing platform"
 
 image:
   preview_only: false
