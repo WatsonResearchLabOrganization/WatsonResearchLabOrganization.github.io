@@ -10,12 +10,12 @@ last_name: Clark
 superuser: true
 
 # Role/position
-role: Undergraduate Student
+role: "High Voltage Integration at Tesla | Undergraduate Alumni"
 
 # Organizations/Affiliations
 organizations:
-  - name: University of Virginia
-    url: ''
+  - name: Tesla
+    url: 'https://www.tesla.com/'
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include Wearable Technology and High Performance Athletics.
@@ -38,9 +38,9 @@ education:
     # - course: MS in Computer Science
     #   institution: UVA
     #   year: 2024
-    - course: Current Bachelors in Computer Engineering
+    - course: Bachelors in Computer Engineering
       institution: UVA
-      year: 2027
+      year: 2026
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -72,7 +72,7 @@ highlight_name: false
 user_groups:
   # - PhD Students
   #- Masters Students
-  - Undergraduate Students
+  - Alumni
 ---
 
-Mikey Clark is an undergraduate student pursuing a Bachelors in Computer Engineering at the University of Virginia. She is currently working as an undergraduate research assistant in the Watson Research Lab, which develops wearable technology for healthcare and athletic performance.
+Mikey Clark earned a Bachelors in Computer Engineering from the University of Virginia and worked as an undergraduate research assistant in the Watson Research Lab. Mikey's initial placement is with Tesla in high voltage integration.

@@ -10,12 +10,12 @@ last_name: Byun
 superuser: false
 
 # Role/position
-role: Undergraduate Student
+role: "M.C. Dean | Undergraduate Alumni"
 
 # Organizations/Affiliations
 organizations:
-  - name: University of Virginia
-    url: ''
+  - name: M.C. Dean
+    url: 'https://www.mcdean.com/'
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include Wearable Technology, Machine Learning, and hardware design.
@@ -55,4 +55,4 @@ highlight_name: true
 user_groups:
   - Alumni
 ---
-Jane Byun is a second-year undergraduate student pursuing a Bachelors in Computer Engineering at the University of Virginia. She is currently working as an undergraduate research assistant in the Watson Research Lab, which develops wearable technology for healthcare and athletic performance.
+Jane Byun earned a Bachelors in Computer Engineering from the University of Virginia and worked as an undergraduate research assistant in the Watson Research Lab. Jane's initial placement is with M.C. Dean.
