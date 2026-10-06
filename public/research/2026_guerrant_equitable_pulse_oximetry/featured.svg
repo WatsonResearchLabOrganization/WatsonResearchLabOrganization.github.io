@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Dick and Nancy Guerrant Global Health Equity Professor Award</title>
+  <desc id="desc">A University of Virginia blue and orange graphic for the Guerrant Global Health Equity Professor Award.</desc>
+  <rect width="1200" height="675" rx="28" fill="#232D4B"/>
+  <rect x="0" y="0" width="30" height="675" fill="#E57200"/>
+  <circle cx="175" cy="337.5" r="102" fill="none" stroke="#FFFFFF" stroke-width="12"/>
+  <path d="M73 337.5h204M175 235.5c-42 47-42 157 0 204M175 235.5c42 47 42 157 0 204M95 278c48 25 112 25 160 0M95 397c48-25 112-25 160 0" fill="none" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round"/>
+  <text x="345" y="245" fill="#E57200" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700" letter-spacing="2">DICK &amp; NANCY GUERRANT</text>
+  <text x="345" y="322" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700">Global Health Equity</text>
+  <text x="345" y="385" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700">Professor Award</text>
+  <line x1="345" y1="430" x2="1070" y2="430" stroke="#E57200" stroke-width="6"/>
+  <text x="345" y="495" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="34">University of Virginia</text>
+  <text x="345" y="540" fill="#BBD7F0" font-family="Arial, Helvetica, sans-serif" font-size="28">Center for Global Health Equity</text>
+</svg>

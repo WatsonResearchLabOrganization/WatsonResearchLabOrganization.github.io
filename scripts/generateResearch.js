@@ -68,7 +68,7 @@ const generateResearch = () => {
       const files = fs.readdirSync(folderPath)
       const featuredFile = files.find(file => {
         const name = file.toLowerCase()
-        return name === 'featured.jpg' || name === 'featured.jpeg' || name === 'featured.png'
+        return name === 'featured.jpg' || name === 'featured.jpeg' || name === 'featured.png' || name === 'featured.svg'
       })
       
       if (featuredFile) {
