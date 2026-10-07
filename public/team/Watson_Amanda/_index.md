@@ -10,7 +10,7 @@ last_name: Watson
 superuser: true
 
 # Role/position
-role: "Guerrant Global Health Equity Professor | Assistant Professor of Electrical and Computer Engineering"
+role: "2026 Guerrant Global Health Equity Professor | Assistant Professor of Electrical and Computer Engineering | Assistant Professor of Biomedical Engineering (by courtesy)"
 
 # Organizations/Affiliations
 organizations:
@@ -18,7 +18,7 @@ organizations:
     url: 'https://www.virginia.edu'
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am a 2026 Guerrant Global Health Equity Professor and an Assistant Professor of Electrical and Computer Engineering. My research interests include Wearable Technology, Internet of Medical Things, and High Performance Athletics.
+bio: I am a 2026 Guerrant Global Health Equity Professor and an Assistant Professor of Electrical and Computer Engineering, with a courtesy appointment in Biomedical Engineering. My research interests include Wearable Technology, Internet of Medical Things, and High Performance Athletics.
 
 interests:
   - Wearable Technology
@@ -61,7 +61,7 @@ social:
     link: https://www.linkedin.com/in/amandawatson22/
     
 # Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
+# To enable, copy your resume/CV to static/files/cv.pdf and uncomment the lines below.
 # - icon: cv
 #   icon_pack: ai
 #   link: files/cv.pdf
@@ -73,9 +73,9 @@ email: ''
 highlight_name: true
 
 # Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.
+#   Set this to [] or comment out if you are not using People widget.
 user_groups:
   - Faculty
 ---
 
-Amanda Watson is a 2026 Guerrant Global Health Equity Professor and an Assistant Professor of Electrical and Computer Engineering at the University of Virginia. Her research interests include Wearable Technology, Internet of Medical Things, and High Performance Athletics. She leads the Watson Research Lab, which develops wearable technology for healthcare and athletic performance. She is cofounder and CEO of Luminosity Wearables, a company commercializing a noninvasive continuous glucose monitor.
+Amanda Watson is a 2026 Guerrant Global Health Equity Professor and an Assistant Professor of Electrical and Computer Engineering at the University of Virginia, with a courtesy appointment in Biomedical Engineering. Her research interests include Wearable Technology, Internet of Medical Things, and High Performance Athletics. She leads the Watson Research Lab, which develops wearable technology for healthcare and athletic performance. She is cofounder and CEO of Luminosity Wearables, a company commercializing a noninvasive continuous glucose monitor.
