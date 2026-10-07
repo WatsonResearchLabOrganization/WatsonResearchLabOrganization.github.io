@@ -115,7 +115,10 @@ export default function Research() {
                 >
                   {/* Image */}
                   {grant.image && (
-                    <div className="mb-4 overflow-hidden rounded-lg bg-gray-100">
+                    <div className="mb-4 overflow-hidden rounded-lg bg-gray-100 relative">
+                      <span className="absolute top-3 left-3 z-10 rounded-full bg-white/95 px-3 py-1 text-[11px] font-bold uppercase tracking-wider text-uva-blue shadow-sm">
+                        Supported by
+                      </span>
                       <img 
                         src={grant.image} 
                         alt={grant.title}
@@ -180,7 +183,10 @@ export default function Research() {
                 >
                   {/* Image */}
                   {grant.image && (
-                    <div className="mb-4 overflow-hidden rounded-lg bg-gray-100">
+                    <div className="mb-4 overflow-hidden rounded-lg bg-gray-100 relative">
+                      <span className="absolute top-3 left-3 z-10 rounded-full bg-white/95 px-3 py-1 text-[11px] font-bold uppercase tracking-wider text-gray-700 shadow-sm">
+                        Supported by
+                      </span>
                       <img 
                         src={grant.image} 
                         alt={grant.title}
@@ -246,7 +252,10 @@ export default function Research() {
             >
               {/* Modal Header with Image */}
               {selectedGrant.image && (
-                <div className="w-full h-64 bg-gray-100 overflow-hidden rounded-t-xl">
+                <div className="w-full h-64 bg-gray-100 overflow-hidden rounded-t-xl relative">
+                  <span className="absolute top-4 left-4 z-10 rounded-full bg-white/95 px-3 py-1.5 text-xs font-bold uppercase tracking-wider text-uva-blue shadow-sm">
+                    Supported by
+                  </span>
                   <img 
                     src={selectedGrant.image} 
                     alt={selectedGrant.title}
