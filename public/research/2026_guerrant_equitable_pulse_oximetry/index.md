@@ -7,7 +7,6 @@ tags: ["Pulse Oximetry", "Global Health Equity", "Skin Pigmentation", "Wearable 
 featured: true
 authors: [Amanda Watson, Shrirang Gadrey, Robert Thiele, Tarek Hamid, Patricia Flores]
 agencies: ["UVA Center for Global Health Equity"]
-amount: "$29,000"
 related_publications:
   - id: hamid-2025-skin-tone-imwut
     relationship: "Foundational skin-tone sensing work"
