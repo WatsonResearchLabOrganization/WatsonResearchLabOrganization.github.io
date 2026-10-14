@@ -240,7 +240,9 @@ export default function News() {
                     <img 
                       src={item.image} 
                       alt={item.title}
-                      className="w-full h-auto object-contain"
+                      className={item.id === '2026_BSN_flores_presentation'
+                        ? 'w-full aspect-[4/5] object-cover object-[center_53%]'
+                        : 'w-full h-auto object-contain'}
                     />
                   </div>
                 )}
